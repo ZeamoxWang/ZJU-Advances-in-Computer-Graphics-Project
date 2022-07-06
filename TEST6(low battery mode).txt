@@ -1,0 +1,59 @@
+Key Usage:
+  Q/q: switch to QuadTree mode (default)
+  C/c: switch to Serial-KdTree mode
+  P/p: switch to Parallel-KdTree mode
+  S/s: range search
+  N/n: nearest search
+  A/a: load road data
+  B/b: load taxi data
+  W/w: switch to station mode
+  R/r: switch to road mode
+  T/t: switch to taxi mode
+  X/x: show tree nodes
+  +  : increase point size
+  -  : decrease point size
+  1  : TEST1: Comparison of Building Time between Parallel-KDTree and Serial-KDTree
+  2  : TEST2: QuadTree NN Query Analysis
+  3  : TEST3: Serial-KDTree NN Query Analysis
+  4  : TEST4: Parallel-KDTree NN Query Analysis
+  5  : TEST5: QuadTree Range Query Analysis for the Best Parameter
+  6  : TEST6: Serial-KDTree Range Query Analysis for the Best Parameter
+  7  : TEST7: Parallel-KDTree Range Query Analysis for the Best Parameter
+  ESC: quit
+
+road number: 12433
+station number: 488
+-----START BUILDING FOR STATIONS-----
+Quad Tree building time: 0s
+Serial preparation time: 0.001s
+Serial large node stage time: 0.003s
+Serial small node stage time: 0.001s
+Serial building time: 0.006s
+Parallel preparation time: 0.004s
+Parallel large node stage time: 0.003s
+Parallel small node stage time: 0.01s
+Parallel building time: 0.017s
+-----------------END-----------------
+*********************Start*********************
+TEST6: Serial-KDTree Range Query Analysis for the Best Parameter
+taxi number: 186781
+-------START BUILDING FOR TAXI-------
+It will take about 2 minutes in debug mode...
+Quad Tree building time: 0s
+Serial preparation time: 0.25s
+Serial large node stage time: 3.906s
+Serial small node stage time: 0.164s
+Serial building time: 4.323s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.195s
+Parallel small node stage time: 0.127s
+Parallel building time: 2.548s
+-----------------END-----------------
+Serial preparation time: 0.721s
+Serial large node stage time: 11.083s
+Serial small node stage time: 0.874s
+Serial building time: 12.68s
+Range Query time: 76.998s
+
+**********************End**********************
+This mode is only display via QuadTree;

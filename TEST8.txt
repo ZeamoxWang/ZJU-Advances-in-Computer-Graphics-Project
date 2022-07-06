@@ -1,0 +1,66 @@
+Key Usage:
+  Q/q: switch to QuadTree mode (default)
+  C/c: switch to Serial-KdTree mode
+  P/p: switch to Parallel-KdTree mode
+  S/s: range search
+  N/n: nearest search
+  A/a: load road data
+  B/b: load taxi data
+  W/w: switch to station mode
+  R/r: switch to road mode
+  T/t: switch to taxi mode
+  X/x: show tree nodes
+  +  : increase point size
+  -  : decrease point size
+  1  : TEST1: Comparison of Building Time between Parallel-KDTree and Serial-KDTree
+  2  : TEST2: QuadTree NN Query Analysis
+  3  : TEST3: Serial-KDTree NN Query Analysis
+  4  : TEST4: Parallel-KDTree NN Query Analysis
+  5  : TEST5: QuadTree Range Query Analysis for the Best Parameter
+  6  : TEST6: Serial-KDTree Range Query Analysis for the Best Parameter
+  7  : TEST7: Parallel-KDTree Range Query Analysis for the Best Parameter
+  8  : TEST8: QuadTree NN Query Worst Performance Analysis
+  9  : TEST9: Serial-KDTree NN Query Worst Performance Analysis
+  ESC: quit
+
+road number: 12433
+station number: 488
+-----START BUILDING FOR STATIONS-----
+Quad Tree building time: 0s
+Serial preparation time: 0s
+Serial large node stage time: 0.003s
+Serial small node stage time: 0.001s
+Serial building time: 0.004s
+Parallel preparation time: 0.005s
+Parallel large node stage time: 0.002s
+Parallel small node stage time: 0.004s
+Parallel building time: 0.012s
+-----------------END-----------------
+*********************Start*********************
+TEST8: QuadTree NN Query Worst Performance Analysis
+taxi number: 186781
+-------START BUILDING FOR TAXI-------
+It will take about 2 minutes in debug mode...
+Quad Tree building time: 0s
+Serial preparation time: 0.29s
+Serial large node stage time: 4.533s
+Serial small node stage time: 0.175s
+Serial building time: 5s
+Parallel preparation time: 0.256s
+Parallel large node stage time: 2.827s
+Parallel small node stage time: 0.145s
+Parallel building time: 3.23s
+-----------------END-----------------
+Quad Tree building time: 0s
+QuadTree NN Query Worst Time: 310.6ns
+QuadTree NN Query Worst Time: 343.3ns
+QuadTree NN Query Worst Time: 428ns
+QuadTree NN Query Worst Time: 278.2ns
+QuadTree NN Query Worst Time: 158.4ns
+QuadTree NN Query Worst Time: 420.4ns
+QuadTree NN Query Worst Time: 180ns
+QuadTree NN Query Worst Time: 287.3ns
+QuadTree NN Query Worst Time: 418.6ns
+QuadTree NN Query Worst Time: 287.5ns
+**********************End**********************
+This mode is only display via QuadTree;

@@ -1,0 +1,953 @@
+Key Usage:
+  Q/q: switch to QuadTree mode (default)
+  C/c: switch to Serial-KdTree mode
+  P/p: switch to Parallel-KdTree mode
+  S/s: range search
+  N/n: nearest search
+  A/a: load road data
+  B/b: load taxi data
+  W/w: switch to station mode
+  R/r: switch to road mode
+  T/t: switch to taxi mode
+  X/x: show tree nodes
+  +  : increase point size
+  -  : decrease point size
+  1  : TEST1: Comparison of Building Time between Parallel-KDTree and Serial-KDTree
+  2  : TEST2: QuadTree NN Query Analysis
+  3  : TEST3: Serial-KDTree NN Query Analysis
+  4  : TEST4: Parallel-KDTree NN Query Analysis
+  5  : TEST5: QuadTree Range Query Analysis for the Best Parameter
+  6  : TEST6: Serial-KDTree Range Query Analysis for the Best Parameter
+  7  : TEST7: Parallel-KDTree Range Query Analysis for the Best Parameter
+  ESC: quit
+
+road number: 12433
+station number: 488
+-----START BUILDING FOR STATIONS-----
+Quad Tree building time: 0s
+Serial preparation time: 0.001s
+Serial large node stage time: 0.003s
+Serial small node stage time: 0s
+Serial building time: 0.004s
+Parallel preparation time: 0.003s
+Parallel large node stage time: 0.002s
+Parallel small node stage time: 0.008s
+Parallel building time: 0.014s
+-----------------END-----------------
+*********************Start*********************
+TEST3: Serial-KDTree NN Query Analysis
+taxi number: 186781
+-------START BUILDING FOR TAXI-------
+It will take about 2 minutes in debug mode...
+Quad Tree building time: 0s
+Serial preparation time: 0.255s
+Serial large node stage time: 3.963s
+Serial small node stage time: 0.167s
+Serial building time: 4.387s
+Parallel preparation time: 0.237s
+Parallel large node stage time: 2.288s
+Parallel small node stage time: 0.156s
+Parallel building time: 2.683s
+-----------------END-----------------
+Serial preparation time: 0.275s
+Serial large node stage time: 4.482s
+Serial small node stage time: 0.381s
+Serial building time: 5.142s
+Serial-KDTree Cts: 1, Ce:0.05;  NNQuery time: 0.884s
+Serial preparation time: 0.263s
+Serial large node stage time: 4.531s
+Serial small node stage time: 0.373s
+Serial building time: 5.169s
+Serial-KDTree Cts: 1.04, Ce:0.05;  NNQuery time: 0.862s
+Serial preparation time: 0.255s
+Serial large node stage time: 4.511s
+Serial small node stage time: 0.363s
+Serial building time: 5.13s
+Serial-KDTree Cts: 1.0816, Ce:0.05;  NNQuery time: 0.86s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.519s
+Serial small node stage time: 0.356s
+Serial building time: 5.128s
+Serial-KDTree Cts: 1.12486, Ce:0.05;  NNQuery time: 0.87s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.51s
+Serial small node stage time: 0.348s
+Serial building time: 5.109s
+Serial-KDTree Cts: 1.16986, Ce:0.05;  NNQuery time: 0.845s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.48s
+Serial small node stage time: 0.344s
+Serial building time: 5.075s
+Serial-KDTree Cts: 1.21665, Ce:0.05;  NNQuery time: 0.858s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.542s
+Serial small node stage time: 0.336s
+Serial building time: 5.13s
+Serial-KDTree Cts: 1.26532, Ce:0.05;  NNQuery time: 0.842s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.532s
+Serial small node stage time: 0.325s
+Serial building time: 5.105s
+Serial-KDTree Cts: 1.31593, Ce:0.05;  NNQuery time: 0.851s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.552s
+Serial small node stage time: 0.318s
+Serial building time: 5.123s
+Serial-KDTree Cts: 1.36857, Ce:0.05;  NNQuery time: 0.851s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.529s
+Serial small node stage time: 0.318s
+Serial building time: 5.099s
+Serial-KDTree Cts: 1.42331, Ce:0.05;  NNQuery time: 0.85s
+Serial preparation time: 0.245s
+Serial large node stage time: 4.472s
+Serial small node stage time: 0.302s
+Serial building time: 5.02s
+Serial-KDTree Cts: 1.48024, Ce:0.05;  NNQuery time: 0.891s
+Serial preparation time: 0.256s
+Serial large node stage time: 4.491s
+Serial small node stage time: 0.299s
+Serial building time: 5.049s
+Serial-KDTree Cts: 1.53945, Ce:0.05;  NNQuery time: 0.864s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.475s
+Serial small node stage time: 0.297s
+Serial building time: 5.021s
+Serial-KDTree Cts: 1.60103, Ce:0.05;  NNQuery time: 0.87s
+Serial preparation time: 0.26s
+Serial large node stage time: 4.475s
+Serial small node stage time: 0.29s
+Serial building time: 5.027s
+Serial-KDTree Cts: 1.66507, Ce:0.05;  NNQuery time: 0.861s
+Serial preparation time: 0.245s
+Serial large node stage time: 4.496s
+Serial small node stage time: 0.284s
+Serial building time: 5.027s
+Serial-KDTree Cts: 1.73168, Ce:0.05;  NNQuery time: 0.86s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.499s
+Serial small node stage time: 0.28s
+Serial building time: 5.032s
+Serial-KDTree Cts: 1.80094, Ce:0.05;  NNQuery time: 0.864s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.483s
+Serial small node stage time: 0.272s
+Serial building time: 5.005s
+Serial-KDTree Cts: 1.87298, Ce:0.05;  NNQuery time: 0.866s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.468s
+Serial small node stage time: 0.267s
+Serial building time: 4.986s
+Serial-KDTree Cts: 1.9479, Ce:0.05;  NNQuery time: 0.88s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.052s
+Serial small node stage time: 0.354s
+Serial building time: 4.654s
+Serial-KDTree Cts: 1, Ce:0.15;  NNQuery time: 0.776s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.026s
+Serial small node stage time: 0.347s
+Serial building time: 4.622s
+Serial-KDTree Cts: 1.04, Ce:0.15;  NNQuery time: 0.769s
+Serial preparation time: 0.245s
+Serial large node stage time: 4.036s
+Serial small node stage time: 0.341s
+Serial building time: 4.625s
+Serial-KDTree Cts: 1.0816, Ce:0.15;  NNQuery time: 0.77s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.541s
+Serial small node stage time: 0.334s
+Serial building time: 5.125s
+Serial-KDTree Cts: 1.12486, Ce:0.15;  NNQuery time: 0.769s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.031s
+Serial small node stage time: 0.323s
+Serial building time: 4.602s
+Serial-KDTree Cts: 1.16986, Ce:0.15;  NNQuery time: 0.759s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.017s
+Serial small node stage time: 0.315s
+Serial building time: 4.582s
+Serial-KDTree Cts: 1.21665, Ce:0.15;  NNQuery time: 0.766s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.048s
+Serial small node stage time: 0.309s
+Serial building time: 4.607s
+Serial-KDTree Cts: 1.26532, Ce:0.15;  NNQuery time: 0.752s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.069s
+Serial small node stage time: 0.302s
+Serial building time: 4.618s
+Serial-KDTree Cts: 1.31593, Ce:0.15;  NNQuery time: 0.757s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.05s
+Serial small node stage time: 0.298s
+Serial building time: 4.596s
+Serial-KDTree Cts: 1.36857, Ce:0.15;  NNQuery time: 0.758s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.066s
+Serial small node stage time: 0.289s
+Serial building time: 4.603s
+Serial-KDTree Cts: 1.42331, Ce:0.15;  NNQuery time: 0.76s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.087s
+Serial small node stage time: 0.286s
+Serial building time: 4.622s
+Serial-KDTree Cts: 1.48024, Ce:0.15;  NNQuery time: 0.764s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.068s
+Serial small node stage time: 0.285s
+Serial building time: 4.604s
+Serial-KDTree Cts: 1.53945, Ce:0.15;  NNQuery time: 0.775s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.044s
+Serial small node stage time: 0.273s
+Serial building time: 4.567s
+Serial-KDTree Cts: 1.60103, Ce:0.15;  NNQuery time: 0.761s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.06s
+Serial small node stage time: 0.268s
+Serial building time: 4.579s
+Serial-KDTree Cts: 1.66507, Ce:0.15;  NNQuery time: 0.776s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.108s
+Serial small node stage time: 0.263s
+Serial building time: 4.623s
+Serial-KDTree Cts: 1.73168, Ce:0.15;  NNQuery time: 0.781s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.073s
+Serial small node stage time: 0.26s
+Serial building time: 4.583s
+Serial-KDTree Cts: 1.80094, Ce:0.15;  NNQuery time: 0.783s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.065s
+Serial small node stage time: 0.262s
+Serial building time: 4.577s
+Serial-KDTree Cts: 1.87298, Ce:0.15;  NNQuery time: 0.785s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.065s
+Serial small node stage time: 0.253s
+Serial building time: 4.567s
+Serial-KDTree Cts: 1.9479, Ce:0.15;  NNQuery time: 0.774s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.987s
+Serial small node stage time: 0.354s
+Serial building time: 4.59s
+Serial-KDTree Cts: 1, Ce:0.25;  NNQuery time: 0.713s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.963s
+Serial small node stage time: 0.345s
+Serial building time: 4.559s
+Serial-KDTree Cts: 1.04, Ce:0.25;  NNQuery time: 0.717s
+Serial preparation time: 0.246s
+Serial large node stage time: 3.954s
+Serial small node stage time: 0.336s
+Serial building time: 4.537s
+Serial-KDTree Cts: 1.0816, Ce:0.25;  NNQuery time: 0.71s
+Serial preparation time: 0.246s
+Serial large node stage time: 3.932s
+Serial small node stage time: 0.327s
+Serial building time: 4.506s
+Serial-KDTree Cts: 1.12486, Ce:0.25;  NNQuery time: 0.714s
+Serial preparation time: 0.245s
+Serial large node stage time: 3.948s
+Serial small node stage time: 0.317s
+Serial building time: 4.511s
+Serial-KDTree Cts: 1.16986, Ce:0.25;  NNQuery time: 0.802s
+Serial preparation time: 0.269s
+Serial large node stage time: 4.055s
+Serial small node stage time: 0.314s
+Serial building time: 4.639s
+Serial-KDTree Cts: 1.21665, Ce:0.25;  NNQuery time: 0.707s
+Serial preparation time: 0.246s
+Serial large node stage time: 3.964s
+Serial small node stage time: 0.305s
+Serial building time: 4.516s
+Serial-KDTree Cts: 1.26532, Ce:0.25;  NNQuery time: 0.701s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.014s
+Serial small node stage time: 0.31s
+Serial building time: 4.572s
+Serial-KDTree Cts: 1.31593, Ce:0.25;  NNQuery time: 0.712s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.979s
+Serial small node stage time: 0.296s
+Serial building time: 4.526s
+Serial-KDTree Cts: 1.36857, Ce:0.25;  NNQuery time: 0.692s
+Serial preparation time: 0.248s
+Serial large node stage time: 3.992s
+Serial small node stage time: 0.286s
+Serial building time: 4.528s
+Serial-KDTree Cts: 1.42331, Ce:0.25;  NNQuery time: 0.705s
+Serial preparation time: 0.246s
+Serial large node stage time: 3.972s
+Serial small node stage time: 0.292s
+Serial building time: 4.512s
+Serial-KDTree Cts: 1.48024, Ce:0.25;  NNQuery time: 0.712s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.978s
+Serial small node stage time: 0.281s
+Serial building time: 4.507s
+Serial-KDTree Cts: 1.53945, Ce:0.25;  NNQuery time: 0.76s
+Serial preparation time: 0.253s
+Serial large node stage time: 4.006s
+Serial small node stage time: 0.273s
+Serial building time: 4.533s
+Serial-KDTree Cts: 1.60103, Ce:0.25;  NNQuery time: 0.723s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.931s
+Serial small node stage time: 0.263s
+Serial building time: 4.445s
+Serial-KDTree Cts: 1.66507, Ce:0.25;  NNQuery time: 0.706s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.967s
+Serial small node stage time: 0.259s
+Serial building time: 4.474s
+Serial-KDTree Cts: 1.73168, Ce:0.25;  NNQuery time: 0.728s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.982s
+Serial small node stage time: 0.257s
+Serial building time: 4.488s
+Serial-KDTree Cts: 1.80094, Ce:0.25;  NNQuery time: 0.709s
+Serial preparation time: 0.253s
+Serial large node stage time: 3.959s
+Serial small node stage time: 0.251s
+Serial building time: 4.464s
+Serial-KDTree Cts: 1.87298, Ce:0.25;  NNQuery time: 0.727s
+Serial preparation time: 0.245s
+Serial large node stage time: 3.971s
+Serial small node stage time: 0.246s
+Serial building time: 4.464s
+Serial-KDTree Cts: 1.9479, Ce:0.25;  NNQuery time: 0.745s
+Serial preparation time: 0.246s
+Serial large node stage time: 3.988s
+Serial small node stage time: 0.36s
+Serial building time: 4.596s
+Serial-KDTree Cts: 1, Ce:0.35;  NNQuery time: 0.712s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.007s
+Serial small node stage time: 0.348s
+Serial building time: 4.606s
+Serial-KDTree Cts: 1.04, Ce:0.35;  NNQuery time: 0.679s
+Serial preparation time: 0.246s
+Serial large node stage time: 3.945s
+Serial small node stage time: 0.333s
+Serial building time: 4.526s
+Serial-KDTree Cts: 1.0816, Ce:0.35;  NNQuery time: 0.677s
+Serial preparation time: 0.245s
+Serial large node stage time: 4.126s
+Serial small node stage time: 0.325s
+Serial building time: 4.697s
+Serial-KDTree Cts: 1.12486, Ce:0.35;  NNQuery time: 0.675s
+Serial preparation time: 0.25s
+Serial large node stage time: 3.949s
+Serial small node stage time: 0.32s
+Serial building time: 4.521s
+Serial-KDTree Cts: 1.16986, Ce:0.35;  NNQuery time: 0.659s
+Serial preparation time: 0.254s
+Serial large node stage time: 3.944s
+Serial small node stage time: 0.324s
+Serial building time: 4.525s
+Serial-KDTree Cts: 1.21665, Ce:0.35;  NNQuery time: 0.663s
+Serial preparation time: 0.246s
+Serial large node stage time: 3.985s
+Serial small node stage time: 0.303s
+Serial building time: 4.536s
+Serial-KDTree Cts: 1.26532, Ce:0.35;  NNQuery time: 0.657s
+Serial preparation time: 0.246s
+Serial large node stage time: 3.957s
+Serial small node stage time: 0.299s
+Serial building time: 4.504s
+Serial-KDTree Cts: 1.31593, Ce:0.35;  NNQuery time: 0.651s
+Serial preparation time: 0.25s
+Serial large node stage time: 3.958s
+Serial small node stage time: 0.29s
+Serial building time: 4.5s
+Serial-KDTree Cts: 1.36857, Ce:0.35;  NNQuery time: 0.659s
+Serial preparation time: 0.245s
+Serial large node stage time: 3.985s
+Serial small node stage time: 0.285s
+Serial building time: 4.516s
+Serial-KDTree Cts: 1.42331, Ce:0.35;  NNQuery time: 0.661s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.968s
+Serial small node stage time: 0.282s
+Serial building time: 4.499s
+Serial-KDTree Cts: 1.48024, Ce:0.35;  NNQuery time: 0.676s
+Serial preparation time: 0.244s
+Serial large node stage time: 3.954s
+Serial small node stage time: 0.273s
+Serial building time: 4.474s
+Serial-KDTree Cts: 1.53945, Ce:0.35;  NNQuery time: 0.688s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.986s
+Serial small node stage time: 0.27s
+Serial building time: 4.505s
+Serial-KDTree Cts: 1.60103, Ce:0.35;  NNQuery time: 0.666s
+Serial preparation time: 0.248s
+Serial large node stage time: 3.965s
+Serial small node stage time: 0.262s
+Serial building time: 4.477s
+Serial-KDTree Cts: 1.66507, Ce:0.35;  NNQuery time: 0.676s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.979s
+Serial small node stage time: 0.259s
+Serial building time: 4.487s
+Serial-KDTree Cts: 1.73168, Ce:0.35;  NNQuery time: 0.698s
+Serial preparation time: 0.245s
+Serial large node stage time: 3.962s
+Serial small node stage time: 0.255s
+Serial building time: 4.464s
+Serial-KDTree Cts: 1.80094, Ce:0.35;  NNQuery time: 0.683s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.959s
+Serial small node stage time: 0.261s
+Serial building time: 4.469s
+Serial-KDTree Cts: 1.87298, Ce:0.35;  NNQuery time: 0.702s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.947s
+Serial small node stage time: 0.247s
+Serial building time: 4.447s
+Serial-KDTree Cts: 1.9479, Ce:0.35;  NNQuery time: 0.698s
+Serial preparation time: 0.259s
+Serial large node stage time: 4.117s
+Serial small node stage time: 0.359s
+Serial building time: 4.737s
+Serial-KDTree Cts: 1, Ce:0.45;  NNQuery time: 0.691s
+Serial preparation time: 0.255s
+Serial large node stage time: 4.096s
+Serial small node stage time: 0.35s
+Serial building time: 4.703s
+Serial-KDTree Cts: 1.04, Ce:0.45;  NNQuery time: 0.75s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.066s
+Serial small node stage time: 0.338s
+Serial building time: 4.658s
+Serial-KDTree Cts: 1.0816, Ce:0.45;  NNQuery time: 0.712s
+Serial preparation time: 0.254s
+Serial large node stage time: 4.104s
+Serial small node stage time: 0.339s
+Serial building time: 4.698s
+Serial-KDTree Cts: 1.12486, Ce:0.45;  NNQuery time: 0.72s
+Serial preparation time: 0.253s
+Serial large node stage time: 4.062s
+Serial small node stage time: 0.324s
+Serial building time: 4.641s
+Serial-KDTree Cts: 1.16986, Ce:0.45;  NNQuery time: 0.707s
+Serial preparation time: 0.253s
+Serial large node stage time: 4.146s
+Serial small node stage time: 0.319s
+Serial building time: 4.72s
+Serial-KDTree Cts: 1.21665, Ce:0.45;  NNQuery time: 0.687s
+Serial preparation time: 0.255s
+Serial large node stage time: 4.061s
+Serial small node stage time: 0.308s
+Serial building time: 4.627s
+Serial-KDTree Cts: 1.26532, Ce:0.45;  NNQuery time: 0.677s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.125s
+Serial small node stage time: 0.306s
+Serial building time: 4.681s
+Serial-KDTree Cts: 1.31593, Ce:0.45;  NNQuery time: 0.69s
+Serial preparation time: 0.254s
+Serial large node stage time: 4.07s
+Serial small node stage time: 0.308s
+Serial building time: 4.634s
+Serial-KDTree Cts: 1.36857, Ce:0.45;  NNQuery time: 0.708s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.039s
+Serial small node stage time: 0.288s
+Serial building time: 4.576s
+Serial-KDTree Cts: 1.42331, Ce:0.45;  NNQuery time: 0.668s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.264s
+Serial small node stage time: 0.288s
+Serial building time: 4.806s
+Serial-KDTree Cts: 1.48024, Ce:0.45;  NNQuery time: 0.697s
+Serial preparation time: 0.258s
+Serial large node stage time: 3.992s
+Serial small node stage time: 0.283s
+Serial building time: 4.535s
+Serial-KDTree Cts: 1.53945, Ce:0.45;  NNQuery time: 0.662s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.102s
+Serial small node stage time: 0.271s
+Serial building time: 4.622s
+Serial-KDTree Cts: 1.60103, Ce:0.45;  NNQuery time: 0.685s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.038s
+Serial small node stage time: 0.267s
+Serial building time: 4.557s
+Serial-KDTree Cts: 1.66507, Ce:0.45;  NNQuery time: 0.693s
+Serial preparation time: 0.255s
+Serial large node stage time: 4.056s
+Serial small node stage time: 0.267s
+Serial building time: 4.58s
+Serial-KDTree Cts: 1.73168, Ce:0.45;  NNQuery time: 0.69s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.066s
+Serial small node stage time: 0.255s
+Serial building time: 4.569s
+Serial-KDTree Cts: 1.80094, Ce:0.45;  NNQuery time: 0.697s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.083s
+Serial small node stage time: 0.26s
+Serial building time: 4.597s
+Serial-KDTree Cts: 1.87298, Ce:0.45;  NNQuery time: 0.695s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.083s
+Serial small node stage time: 0.248s
+Serial building time: 4.581s
+Serial-KDTree Cts: 1.9479, Ce:0.45;  NNQuery time: 0.734s
+Serial preparation time: 0.258s
+Serial large node stage time: 4.024s
+Serial small node stage time: 0.356s
+Serial building time: 4.639s
+Serial-KDTree Cts: 1, Ce:0.55;  NNQuery time: 0.686s
+Serial preparation time: 0.256s
+Serial large node stage time: 4.013s
+Serial small node stage time: 0.353s
+Serial building time: 4.623s
+Serial-KDTree Cts: 1.04, Ce:0.55;  NNQuery time: 0.675s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.07s
+Serial small node stage time: 0.344s
+Serial building time: 4.666s
+Serial-KDTree Cts: 1.0816, Ce:0.55;  NNQuery time: 0.703s
+Serial preparation time: 0.255s
+Serial large node stage time: 4.047s
+Serial small node stage time: 0.328s
+Serial building time: 4.632s
+Serial-KDTree Cts: 1.12486, Ce:0.55;  NNQuery time: 0.673s
+Serial preparation time: 0.259s
+Serial large node stage time: 4.043s
+Serial small node stage time: 0.327s
+Serial building time: 4.632s
+Serial-KDTree Cts: 1.16986, Ce:0.55;  NNQuery time: 0.683s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.112s
+Serial small node stage time: 0.319s
+Serial building time: 4.679s
+Serial-KDTree Cts: 1.21665, Ce:0.55;  NNQuery time: 0.698s
+Serial preparation time: 0.258s
+Serial large node stage time: 4.077s
+Serial small node stage time: 0.307s
+Serial building time: 4.643s
+Serial-KDTree Cts: 1.26532, Ce:0.55;  NNQuery time: 0.7s
+Serial preparation time: 0.253s
+Serial large node stage time: 4.048s
+Serial small node stage time: 0.298s
+Serial building time: 4.601s
+Serial-KDTree Cts: 1.31593, Ce:0.55;  NNQuery time: 0.661s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.103s
+Serial small node stage time: 0.294s
+Serial building time: 4.646s
+Serial-KDTree Cts: 1.36857, Ce:0.55;  NNQuery time: 0.679s
+Serial preparation time: 0.257s
+Serial large node stage time: 4.076s
+Serial small node stage time: 0.294s
+Serial building time: 4.629s
+Serial-KDTree Cts: 1.42331, Ce:0.55;  NNQuery time: 0.656s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.093s
+Serial small node stage time: 0.285s
+Serial building time: 4.631s
+Serial-KDTree Cts: 1.48024, Ce:0.55;  NNQuery time: 0.715s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.06s
+Serial small node stage time: 0.278s
+Serial building time: 4.587s
+Serial-KDTree Cts: 1.53945, Ce:0.55;  NNQuery time: 0.662s
+Serial preparation time: 0.25s
+Serial large node stage time: 3.999s
+Serial small node stage time: 0.274s
+Serial building time: 4.524s
+Serial-KDTree Cts: 1.60103, Ce:0.55;  NNQuery time: 0.67s
+Serial preparation time: 0.248s
+Serial large node stage time: 3.996s
+Serial small node stage time: 0.266s
+Serial building time: 4.511s
+Serial-KDTree Cts: 1.66507, Ce:0.55;  NNQuery time: 0.682s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.05s
+Serial small node stage time: 0.26s
+Serial building time: 4.56s
+Serial-KDTree Cts: 1.73168, Ce:0.55;  NNQuery time: 0.692s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.005s
+Serial small node stage time: 0.259s
+Serial building time: 4.514s
+Serial-KDTree Cts: 1.80094, Ce:0.55;  NNQuery time: 0.686s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.034s
+Serial small node stage time: 0.251s
+Serial building time: 4.537s
+Serial-KDTree Cts: 1.87298, Ce:0.55;  NNQuery time: 0.683s
+Serial preparation time: 0.267s
+Serial large node stage time: 4.13s
+Serial small node stage time: 0.251s
+Serial building time: 4.67s
+Serial-KDTree Cts: 1.9479, Ce:0.55;  NNQuery time: 0.722s
+Serial preparation time: 0.257s
+Serial large node stage time: 4.331s
+Serial small node stage time: 0.37s
+Serial building time: 4.969s
+Serial-KDTree Cts: 1, Ce:0.65;  NNQuery time: 0.73s
+Serial preparation time: 0.279s
+Serial large node stage time: 4.189s
+Serial small node stage time: 0.351s
+Serial building time: 4.823s
+Serial-KDTree Cts: 1.04, Ce:0.65;  NNQuery time: 0.686s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.027s
+Serial small node stage time: 0.333s
+Serial building time: 4.611s
+Serial-KDTree Cts: 1.0816, Ce:0.65;  NNQuery time: 0.748s
+Serial preparation time: 0.261s
+Serial large node stage time: 4.114s
+Serial small node stage time: 0.325s
+Serial building time: 4.707s
+Serial-KDTree Cts: 1.12486, Ce:0.65;  NNQuery time: 0.676s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.046s
+Serial small node stage time: 0.327s
+Serial building time: 4.63s
+Serial-KDTree Cts: 1.16986, Ce:0.65;  NNQuery time: 0.687s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.013s
+Serial small node stage time: 0.319s
+Serial building time: 4.58s
+Serial-KDTree Cts: 1.21665, Ce:0.65;  NNQuery time: 0.667s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.059s
+Serial small node stage time: 0.307s
+Serial building time: 4.617s
+Serial-KDTree Cts: 1.26532, Ce:0.65;  NNQuery time: 0.673s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.056s
+Serial small node stage time: 0.297s
+Serial building time: 4.605s
+Serial-KDTree Cts: 1.31593, Ce:0.65;  NNQuery time: 0.661s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.021s
+Serial small node stage time: 0.292s
+Serial building time: 4.561s
+Serial-KDTree Cts: 1.36857, Ce:0.65;  NNQuery time: 0.664s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.027s
+Serial small node stage time: 0.289s
+Serial building time: 4.566s
+Serial-KDTree Cts: 1.42331, Ce:0.65;  NNQuery time: 0.661s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.053s
+Serial small node stage time: 0.281s
+Serial building time: 4.586s
+Serial-KDTree Cts: 1.48024, Ce:0.65;  NNQuery time: 0.671s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.001s
+Serial small node stage time: 0.283s
+Serial building time: 4.536s
+Serial-KDTree Cts: 1.53945, Ce:0.65;  NNQuery time: 0.68s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.013s
+Serial small node stage time: 0.274s
+Serial building time: 4.538s
+Serial-KDTree Cts: 1.60103, Ce:0.65;  NNQuery time: 0.68s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.035s
+Serial small node stage time: 0.263s
+Serial building time: 4.547s
+Serial-KDTree Cts: 1.66507, Ce:0.65;  NNQuery time: 0.684s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.325s
+Serial small node stage time: 0.26s
+Serial building time: 4.846s
+Serial-KDTree Cts: 1.73168, Ce:0.65;  NNQuery time: 0.745s
+Serial preparation time: 0.265s
+Serial large node stage time: 4.124s
+Serial small node stage time: 0.268s
+Serial building time: 4.665s
+Serial-KDTree Cts: 1.80094, Ce:0.65;  NNQuery time: 0.701s
+Serial preparation time: 0.259s
+Serial large node stage time: 4.153s
+Serial small node stage time: 0.25s
+Serial building time: 4.676s
+Serial-KDTree Cts: 1.87298, Ce:0.65;  NNQuery time: 0.743s
+Serial preparation time: 0.278s
+Serial large node stage time: 4.098s
+Serial small node stage time: 0.243s
+Serial building time: 4.62s
+Serial-KDTree Cts: 1.9479, Ce:0.65;  NNQuery time: 0.712s
+Serial preparation time: 0.254s
+Serial large node stage time: 4.085s
+Serial small node stage time: 0.364s
+Serial building time: 4.705s
+Serial-KDTree Cts: 1, Ce:0.75;  NNQuery time: 0.704s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.109s
+Serial small node stage time: 0.345s
+Serial building time: 4.72s
+Serial-KDTree Cts: 1.04, Ce:0.75;  NNQuery time: 0.72s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.04s
+Serial small node stage time: 0.332s
+Serial building time: 4.62s
+Serial-KDTree Cts: 1.0816, Ce:0.75;  NNQuery time: 0.678s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.074s
+Serial small node stage time: 0.325s
+Serial building time: 4.649s
+Serial-KDTree Cts: 1.12486, Ce:0.75;  NNQuery time: 0.682s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.061s
+Serial small node stage time: 0.322s
+Serial building time: 4.631s
+Serial-KDTree Cts: 1.16986, Ce:0.75;  NNQuery time: 0.678s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.053s
+Serial small node stage time: 0.311s
+Serial building time: 4.612s
+Serial-KDTree Cts: 1.21665, Ce:0.75;  NNQuery time: 0.686s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.065s
+Serial small node stage time: 0.306s
+Serial building time: 4.625s
+Serial-KDTree Cts: 1.26532, Ce:0.75;  NNQuery time: 0.679s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.109s
+Serial small node stage time: 0.297s
+Serial building time: 4.657s
+Serial-KDTree Cts: 1.31593, Ce:0.75;  NNQuery time: 0.676s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.023s
+Serial small node stage time: 0.29s
+Serial building time: 4.561s
+Serial-KDTree Cts: 1.36857, Ce:0.75;  NNQuery time: 0.66s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.031s
+Serial small node stage time: 0.286s
+Serial building time: 4.566s
+Serial-KDTree Cts: 1.42331, Ce:0.75;  NNQuery time: 0.664s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.04s
+Serial small node stage time: 0.277s
+Serial building time: 4.571s
+Serial-KDTree Cts: 1.48024, Ce:0.75;  NNQuery time: 0.67s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.059s
+Serial small node stage time: 0.28s
+Serial building time: 4.589s
+Serial-KDTree Cts: 1.53945, Ce:0.75;  NNQuery time: 0.705s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.049s
+Serial small node stage time: 0.27s
+Serial building time: 4.571s
+Serial-KDTree Cts: 1.60103, Ce:0.75;  NNQuery time: 0.672s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.022s
+Serial small node stage time: 0.264s
+Serial building time: 4.535s
+Serial-KDTree Cts: 1.66507, Ce:0.75;  NNQuery time: 0.667s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.059s
+Serial small node stage time: 0.264s
+Serial building time: 4.57s
+Serial-KDTree Cts: 1.73168, Ce:0.75;  NNQuery time: 0.692s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.053s
+Serial small node stage time: 0.256s
+Serial building time: 4.558s
+Serial-KDTree Cts: 1.80094, Ce:0.75;  NNQuery time: 0.688s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.059s
+Serial small node stage time: 0.254s
+Serial building time: 4.562s
+Serial-KDTree Cts: 1.87298, Ce:0.75;  NNQuery time: 0.69s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.052s
+Serial small node stage time: 0.244s
+Serial building time: 4.546s
+Serial-KDTree Cts: 1.9479, Ce:0.75;  NNQuery time: 0.7s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.065s
+Serial small node stage time: 0.355s
+Serial building time: 4.671s
+Serial-KDTree Cts: 1, Ce:0.85;  NNQuery time: 0.679s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.059s
+Serial small node stage time: 0.346s
+Serial building time: 4.653s
+Serial-KDTree Cts: 1.04, Ce:0.85;  NNQuery time: 0.698s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.07s
+Serial small node stage time: 0.334s
+Serial building time: 4.653s
+Serial-KDTree Cts: 1.0816, Ce:0.85;  NNQuery time: 0.681s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.028s
+Serial small node stage time: 0.332s
+Serial building time: 4.61s
+Serial-KDTree Cts: 1.12486, Ce:0.85;  NNQuery time: 0.679s
+Serial preparation time: 0.254s
+Serial large node stage time: 3.998s
+Serial small node stage time: 0.326s
+Serial building time: 4.579s
+Serial-KDTree Cts: 1.16986, Ce:0.85;  NNQuery time: 0.67s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.99s
+Serial small node stage time: 0.312s
+Serial building time: 4.55s
+Serial-KDTree Cts: 1.21665, Ce:0.85;  NNQuery time: 0.667s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.009s
+Serial small node stage time: 0.307s
+Serial building time: 4.563s
+Serial-KDTree Cts: 1.26532, Ce:0.85;  NNQuery time: 0.667s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.997s
+Serial small node stage time: 0.325s
+Serial building time: 4.571s
+Serial-KDTree Cts: 1.31593, Ce:0.85;  NNQuery time: 0.667s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.005s
+Serial small node stage time: 0.289s
+Serial building time: 4.543s
+Serial-KDTree Cts: 1.36857, Ce:0.85;  NNQuery time: 0.665s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.005s
+Serial small node stage time: 0.311s
+Serial building time: 4.564s
+Serial-KDTree Cts: 1.42331, Ce:0.85;  NNQuery time: 0.664s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.013s
+Serial small node stage time: 0.283s
+Serial building time: 4.544s
+Serial-KDTree Cts: 1.48024, Ce:0.85;  NNQuery time: 0.685s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.063s
+Serial small node stage time: 0.278s
+Serial building time: 4.591s
+Serial-KDTree Cts: 1.53945, Ce:0.85;  NNQuery time: 0.675s
+Serial preparation time: 0.245s
+Serial large node stage time: 4.007s
+Serial small node stage time: 0.296s
+Serial building time: 4.55s
+Serial-KDTree Cts: 1.60103, Ce:0.85;  NNQuery time: 0.662s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.04s
+Serial small node stage time: 0.267s
+Serial building time: 4.557s
+Serial-KDTree Cts: 1.66507, Ce:0.85;  NNQuery time: 0.672s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.01s
+Serial small node stage time: 0.262s
+Serial building time: 4.525s
+Serial-KDTree Cts: 1.73168, Ce:0.85;  NNQuery time: 0.68s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.027s
+Serial small node stage time: 0.254s
+Serial building time: 4.532s
+Serial-KDTree Cts: 1.80094, Ce:0.85;  NNQuery time: 0.689s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.043s
+Serial small node stage time: 0.25s
+Serial building time: 4.543s
+Serial-KDTree Cts: 1.87298, Ce:0.85;  NNQuery time: 0.691s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.062s
+Serial small node stage time: 0.272s
+Serial building time: 4.584s
+Serial-KDTree Cts: 1.9479, Ce:0.85;  NNQuery time: 0.695s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.029s
+Serial small node stage time: 0.382s
+Serial building time: 4.662s
+Serial-KDTree Cts: 1, Ce:0.95;  NNQuery time: 0.68s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.036s
+Serial small node stage time: 0.349s
+Serial building time: 4.634s
+Serial-KDTree Cts: 1.04, Ce:0.95;  NNQuery time: 0.667s
+Serial preparation time: 0.254s
+Serial large node stage time: 4.139s
+Serial small node stage time: 0.332s
+Serial building time: 4.727s
+Serial-KDTree Cts: 1.0816, Ce:0.95;  NNQuery time: 0.679s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.011s
+Serial small node stage time: 0.33s
+Serial building time: 4.592s
+Serial-KDTree Cts: 1.12486, Ce:0.95;  NNQuery time: 0.664s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.046s
+Serial small node stage time: 0.319s
+Serial building time: 4.614s
+Serial-KDTree Cts: 1.16986, Ce:0.95;  NNQuery time: 0.696s
+Serial preparation time: 0.264s
+Serial large node stage time: 4.042s
+Serial small node stage time: 0.31s
+Serial building time: 4.618s
+Serial-KDTree Cts: 1.21665, Ce:0.95;  NNQuery time: 0.689s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.018s
+Serial small node stage time: 0.305s
+Serial building time: 4.574s
+Serial-KDTree Cts: 1.26532, Ce:0.95;  NNQuery time: 0.675s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.036s
+Serial small node stage time: 0.304s
+Serial building time: 4.589s
+Serial-KDTree Cts: 1.31593, Ce:0.95;  NNQuery time: 0.659s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.058s
+Serial small node stage time: 0.295s
+Serial building time: 4.602s
+Serial-KDTree Cts: 1.36857, Ce:0.95;  NNQuery time: 0.649s
+Serial preparation time: 0.246s
+Serial large node stage time: 4.061s
+Serial small node stage time: 0.287s
+Serial building time: 4.595s
+Serial-KDTree Cts: 1.42331, Ce:0.95;  NNQuery time: 0.666s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.058s
+Serial small node stage time: 0.284s
+Serial building time: 4.592s
+Serial-KDTree Cts: 1.48024, Ce:0.95;  NNQuery time: 0.663s
+Serial preparation time: 0.256s
+Serial large node stage time: 4.046s
+Serial small node stage time: 0.275s
+Serial building time: 4.578s
+Serial-KDTree Cts: 1.53945, Ce:0.95;  NNQuery time: 0.668s
+Serial preparation time: 0.245s
+Serial large node stage time: 4.055s
+Serial small node stage time: 0.271s
+Serial building time: 4.573s
+Serial-KDTree Cts: 1.60103, Ce:0.95;  NNQuery time: 0.677s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.038s
+Serial small node stage time: 0.265s
+Serial building time: 4.552s
+Serial-KDTree Cts: 1.66507, Ce:0.95;  NNQuery time: 0.682s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.05s
+Serial small node stage time: 0.263s
+Serial building time: 4.563s
+Serial-KDTree Cts: 1.73168, Ce:0.95;  NNQuery time: 0.694s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.121s
+Serial small node stage time: 0.253s
+Serial building time: 4.622s
+Serial-KDTree Cts: 1.80094, Ce:0.95;  NNQuery time: 0.7s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.093s
+Serial small node stage time: 0.278s
+Serial building time: 4.62s
+Serial-KDTree Cts: 1.87298, Ce:0.95;  NNQuery time: 0.679s
+Serial preparation time: 0.247s
+Serial large node stage time: 4.024s
+Serial small node stage time: 0.272s
+Serial building time: 4.545s
+Serial-KDTree Cts: 1.9479, Ce:0.95;  NNQuery time: 0.698s
+**********************End**********************
+This mode is only display via QuadTree;

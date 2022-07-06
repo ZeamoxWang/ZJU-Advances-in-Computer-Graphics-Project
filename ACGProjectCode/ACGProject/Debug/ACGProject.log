@@ -1,0 +1,13 @@
+﻿  Geometry.cpp
+  main.cpp
+  ParallelKDTree.cpp
+  QuadTree.cpp
+  SerialKDTree.cpp
+  dbfopen.cpp
+  safileio.cpp
+  shpopen.cpp
+  test.cpp
+  正在生成代码...
+E:\Desktop\ACGProj\ACGProject\ACGProject\SerialKDTree.cpp(272): warning C4715: “MapGeom::SerialKDTree::buildKDTree”: 不是所有的控件路径都返回值
+E:\Desktop\ACGProj\ACGProject\ACGProject\ParallelKDTree.cpp(285): warning C4715: “MapGeom::ParallelKDTree::buildKDTree”: 不是所有的控件路径都返回值
+  ACGProject.vcxproj -> E:\Desktop\ACGProj\ACGProject\Debug\ACGProject.exe

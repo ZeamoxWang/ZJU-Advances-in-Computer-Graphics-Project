@@ -1,0 +1,955 @@
+Key Usage:
+  Q/q: switch to QuadTree mode (default)
+  C/c: switch to Serial-KdTree mode
+  P/p: switch to Parallel-KdTree mode
+  S/s: range search
+  N/n: nearest search
+  A/a: load road data
+  B/b: load taxi data
+  W/w: switch to station mode
+  R/r: switch to road mode
+  T/t: switch to taxi mode
+  X/x: show tree nodes
+  +  : increase point size
+  -  : decrease point size
+  1  : TEST1: Comparison of Building Time between Parallel-KDTree and Serial-KDTree
+  2  : TEST2: QuadTree NN Query Analysis
+  3  : TEST3: Serial-KDTree NN Query Analysis
+  4  : TEST4: Parallel-KDTree NN Query Analysis
+  5  : TEST5: QuadTree Range Query Analysis for the Best Parameter
+  6  : TEST6: Serial-KDTree Range Query Analysis for the Best Parameter
+  7  : TEST7: Parallel-KDTree Range Query Analysis for the Best Parameter
+  8  : TEST8: QuadTree NN Query Worst Performance Analysis
+  9  : TEST9: Serial-KDTree NN Query Worst Performance Analysis
+  ESC: quit
+
+road number: 12433
+station number: 488
+-----START BUILDING FOR STATIONS-----
+Quad Tree building time: 0s
+Serial preparation time: 0.001s
+Serial large node stage time: 0.003s
+Serial small node stage time: 0.001s
+Serial building time: 0.006s
+Parallel preparation time: 0.003s
+Parallel large node stage time: 0.002s
+Parallel small node stage time: 0.007s
+Parallel building time: 0.013s
+-----------------END-----------------
+*********************Start*********************
+TEST4: Parallel-KDTree NN Query Analysis
+taxi number: 186781
+-------START BUILDING FOR TAXI-------
+It will take about 2 minutes in debug mode...
+Quad Tree building time: 0s
+Serial preparation time: 0.257s
+Serial large node stage time: 4.006s
+Serial small node stage time: 0.17s
+Serial building time: 4.434s
+Parallel preparation time: 0.247s
+Parallel large node stage time: 2.152s
+Parallel small node stage time: 0.12s
+Parallel building time: 2.522s
+-----------------END-----------------
+Parallel preparation time: 0.231s
+Parallel large node stage time: 2.587s
+Parallel small node stage time: 0.183s
+Parallel building time: 3.003s
+Parallel-KDTree Cts: 1, Ce:0.05;  NNQuery time: 0.911s
+Parallel preparation time: 0.234s
+Parallel large node stage time: 2.472s
+Parallel small node stage time: 0.179s
+Parallel building time: 2.887s
+Parallel-KDTree Cts: 1.04, Ce:0.05;  NNQuery time: 0.889s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.464s
+Parallel small node stage time: 0.18s
+Parallel building time: 2.871s
+Parallel-KDTree Cts: 1.0816, Ce:0.05;  NNQuery time: 1.05s
+Parallel preparation time: 0.241s
+Parallel large node stage time: 2.57s
+Parallel small node stage time: 0.173s
+Parallel building time: 2.986s
+Parallel-KDTree Cts: 1.12486, Ce:0.05;  NNQuery time: 0.873s
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.564s
+Parallel small node stage time: 0.173s
+Parallel building time: 2.966s
+Parallel-KDTree Cts: 1.16986, Ce:0.05;  NNQuery time: 0.875s
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.526s
+Parallel small node stage time: 0.175s
+Parallel building time: 2.93s
+Parallel-KDTree Cts: 1.21665, Ce:0.05;  NNQuery time: 0.863s
+Parallel preparation time: 0.239s
+Parallel large node stage time: 2.491s
+Parallel small node stage time: 0.172s
+Parallel building time: 2.903s
+Parallel-KDTree Cts: 1.26532, Ce:0.05;  NNQuery time: 0.891s
+Parallel preparation time: 0.232s
+Parallel large node stage time: 2.486s
+Parallel small node stage time: 0.169s
+Parallel building time: 2.889s
+Parallel-KDTree Cts: 1.31593, Ce:0.05;  NNQuery time: 0.879s
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.545s
+Parallel small node stage time: 0.175s
+Parallel building time: 2.949s
+Parallel-KDTree Cts: 1.36857, Ce:0.05;  NNQuery time: 0.862s
+Parallel preparation time: 0.235s
+Parallel large node stage time: 2.482s
+Parallel small node stage time: 0.165s
+Parallel building time: 2.884s
+Parallel-KDTree Cts: 1.42331, Ce:0.05;  NNQuery time: 0.853s
+Parallel preparation time: 0.233s
+Parallel large node stage time: 2.493s
+Parallel small node stage time: 0.177s
+Parallel building time: 2.905s
+Parallel-KDTree Cts: 1.48024, Ce:0.05;  NNQuery time: 0.927s
+Parallel preparation time: 0.235s
+Parallel large node stage time: 2.609s
+Parallel small node stage time: 0.161s
+Parallel building time: 3.007s
+Parallel-KDTree Cts: 1.53945, Ce:0.05;  NNQuery time: 0.862s
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.57s
+Parallel small node stage time: 0.161s
+Parallel building time: 2.959s
+Parallel-KDTree Cts: 1.60103, Ce:0.05;  NNQuery time: 0.867s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.583s
+Parallel small node stage time: 0.162s
+Parallel building time: 2.972s
+Parallel-KDTree Cts: 1.66507, Ce:0.05;  NNQuery time: 0.886s
+Parallel preparation time: 0.244s
+Parallel large node stage time: 2.463s
+Parallel small node stage time: 0.157s
+Parallel building time: 2.865s
+Parallel-KDTree Cts: 1.73168, Ce:0.05;  NNQuery time: 0.949s
+Parallel preparation time: 0.243s
+Parallel large node stage time: 2.512s
+Parallel small node stage time: 0.161s
+Parallel building time: 2.918s
+Parallel-KDTree Cts: 1.80094, Ce:0.05;  NNQuery time: 0.892s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.53s
+Parallel small node stage time: 0.153s
+Parallel building time: 2.911s
+Parallel-KDTree Cts: 1.87298, Ce:0.05;  NNQuery time: 0.878s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.486s
+Parallel small node stage time: 0.158s
+Parallel building time: 2.867s
+Parallel-KDTree Cts: 1.9479, Ce:0.05;  NNQuery time: 0.892s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.16s
+Parallel small node stage time: 0.161s
+Parallel building time: 2.545s
+Parallel-KDTree Cts: 1, Ce:0.15;  NNQuery time: 0.804s
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.153s
+Parallel small node stage time: 0.162s
+Parallel building time: 2.546s
+Parallel-KDTree Cts: 1.04, Ce:0.15;  NNQuery time: 0.812s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.196s
+Parallel small node stage time: 0.16s
+Parallel building time: 2.582s
+Parallel-KDTree Cts: 1.0816, Ce:0.15;  NNQuery time: 0.799s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.172s
+Parallel small node stage time: 0.162s
+Parallel building time: 2.559s
+Parallel-KDTree Cts: 1.12486, Ce:0.15;  NNQuery time: 0.784s
+Parallel preparation time: 0.231s
+Parallel large node stage time: 2.157s
+Parallel small node stage time: 0.159s
+Parallel building time: 2.549s
+Parallel-KDTree Cts: 1.16986, Ce:0.15;  NNQuery time: 0.764s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.151s
+Parallel small node stage time: 0.155s
+Parallel building time: 2.533s
+Parallel-KDTree Cts: 1.21665, Ce:0.15;  NNQuery time: 0.835s
+Parallel preparation time: 0.273s
+Parallel large node stage time: 2.745s
+Parallel small node stage time: 0.159s
+Parallel building time: 3.178s
+Parallel-KDTree Cts: 1.26532, Ce:0.15;  NNQuery time: 0.79s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.193s
+Parallel small node stage time: 0.157s
+Parallel building time: 2.574s
+Parallel-KDTree Cts: 1.31593, Ce:0.15;  NNQuery time: 0.773s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.188s
+Parallel small node stage time: 0.146s
+Parallel building time: 2.562s
+Parallel-KDTree Cts: 1.36857, Ce:0.15;  NNQuery time: 0.78s
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.293s
+Parallel small node stage time: 0.153s
+Parallel building time: 2.674s
+Parallel-KDTree Cts: 1.42331, Ce:0.15;  NNQuery time: 0.791s
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.18s
+Parallel small node stage time: 0.153s
+Parallel building time: 2.563s
+Parallel-KDTree Cts: 1.48024, Ce:0.15;  NNQuery time: 0.777s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.234s
+Parallel small node stage time: 0.148s
+Parallel building time: 2.605s
+Parallel-KDTree Cts: 1.53945, Ce:0.15;  NNQuery time: 0.778s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.205s
+Parallel small node stage time: 0.147s
+Parallel building time: 2.578s
+Parallel-KDTree Cts: 1.60103, Ce:0.15;  NNQuery time: 0.764s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.182s
+Parallel small node stage time: 0.152s
+Parallel building time: 2.56s
+Parallel-KDTree Cts: 1.66507, Ce:0.15;  NNQuery time: 0.822s
+Parallel preparation time: 0.233s
+Parallel large node stage time: 2.178s
+Parallel small node stage time: 0.145s
+Parallel building time: 2.558s
+Parallel-KDTree Cts: 1.73168, Ce:0.15;  NNQuery time: 0.814s
+Parallel preparation time: 0.247s
+Parallel large node stage time: 2.22s
+Parallel small node stage time: 0.145s
+Parallel building time: 2.614s
+Parallel-KDTree Cts: 1.80094, Ce:0.15;  NNQuery time: 0.794s
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.15s
+Parallel small node stage time: 0.144s
+Parallel building time: 2.522s
+Parallel-KDTree Cts: 1.87298, Ce:0.15;  NNQuery time: 0.8s
+Parallel preparation time: 0.246s
+Parallel large node stage time: 2.215s
+Parallel small node stage time: 0.142s
+Parallel building time: 2.604s
+Parallel-KDTree Cts: 1.9479, Ce:0.15;  NNQuery time: 0.797s
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.124s
+Parallel small node stage time: 0.162s
+Parallel building time: 2.516s
+Parallel-KDTree Cts: 1, Ce:0.25;  NNQuery time: 0.74s
+Parallel preparation time: 0.236s
+Parallel large node stage time: 2.118s
+Parallel small node stage time: 0.16s
+Parallel building time: 2.516s
+Parallel-KDTree Cts: 1.04, Ce:0.25;  NNQuery time: 0.731s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.092s
+Parallel small node stage time: 0.159s
+Parallel building time: 2.479s
+Parallel-KDTree Cts: 1.0816, Ce:0.25;  NNQuery time: 0.728s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.092s
+Parallel small node stage time: 0.156s
+Parallel building time: 2.474s
+Parallel-KDTree Cts: 1.12486, Ce:0.25;  NNQuery time: 0.733s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.167s
+Parallel small node stage time: 0.148s
+Parallel building time: 2.541s
+Parallel-KDTree Cts: 1.16986, Ce:0.25;  NNQuery time: 0.722s
+Parallel preparation time: 0.241s
+Parallel large node stage time: 2.113s
+Parallel small node stage time: 0.148s
+Parallel building time: 2.503s
+Parallel-KDTree Cts: 1.21665, Ce:0.25;  NNQuery time: 0.717s
+Parallel preparation time: 0.237s
+Parallel large node stage time: 2.092s
+Parallel small node stage time: 0.151s
+Parallel building time: 2.482s
+Parallel-KDTree Cts: 1.26532, Ce:0.25;  NNQuery time: 0.707s
+Parallel preparation time: 0.22s
+Parallel large node stage time: 2.108s
+Parallel small node stage time: 0.148s
+Parallel building time: 2.478s
+Parallel-KDTree Cts: 1.31593, Ce:0.25;  NNQuery time: 0.705s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.154s
+Parallel small node stage time: 0.144s
+Parallel building time: 2.521s
+Parallel-KDTree Cts: 1.36857, Ce:0.25;  NNQuery time: 0.718s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.181s
+Parallel small node stage time: 0.146s
+Parallel building time: 2.552s
+Parallel-KDTree Cts: 1.42331, Ce:0.25;  NNQuery time: 0.716s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.112s
+Parallel small node stage time: 0.144s
+Parallel building time: 2.484s
+Parallel-KDTree Cts: 1.48024, Ce:0.25;  NNQuery time: 0.716s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.106s
+Parallel small node stage time: 0.15s
+Parallel building time: 2.48s
+Parallel-KDTree Cts: 1.53945, Ce:0.25;  NNQuery time: 0.729s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.143s
+Parallel small node stage time: 0.143s
+Parallel building time: 2.509s
+Parallel-KDTree Cts: 1.60103, Ce:0.25;  NNQuery time: 0.714s
+Parallel preparation time: 0.245s
+Parallel large node stage time: 2.123s
+Parallel small node stage time: 0.151s
+Parallel building time: 2.521s
+Parallel-KDTree Cts: 1.66507, Ce:0.25;  NNQuery time: 0.811s
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.194s
+Parallel small node stage time: 0.147s
+Parallel building time: 2.569s
+Parallel-KDTree Cts: 1.73168, Ce:0.25;  NNQuery time: 0.754s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.166s
+Parallel small node stage time: 0.138s
+Parallel building time: 2.531s
+Parallel-KDTree Cts: 1.80094, Ce:0.25;  NNQuery time: 0.726s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.162s
+Parallel small node stage time: 0.141s
+Parallel building time: 2.53s
+Parallel-KDTree Cts: 1.87298, Ce:0.25;  NNQuery time: 0.732s
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.126s
+Parallel small node stage time: 0.144s
+Parallel building time: 2.501s
+Parallel-KDTree Cts: 1.9479, Ce:0.25;  NNQuery time: 0.73s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.116s
+Parallel small node stage time: 0.166s
+Parallel building time: 2.507s
+Parallel-KDTree Cts: 1, Ce:0.35;  NNQuery time: 0.701s
+Parallel preparation time: 0.232s
+Parallel large node stage time: 2.099s
+Parallel small node stage time: 0.16s
+Parallel building time: 2.492s
+Parallel-KDTree Cts: 1.04, Ce:0.35;  NNQuery time: 0.701s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.115s
+Parallel small node stage time: 0.155s
+Parallel building time: 2.498s
+Parallel-KDTree Cts: 1.0816, Ce:0.35;  NNQuery time: 0.694s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.167s
+Parallel small node stage time: 0.154s
+Parallel building time: 2.549s
+Parallel-KDTree Cts: 1.12486, Ce:0.35;  NNQuery time: 0.69s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.13s
+Parallel small node stage time: 0.154s
+Parallel building time: 2.51s
+Parallel-KDTree Cts: 1.16986, Ce:0.35;  NNQuery time: 0.685s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.142s
+Parallel small node stage time: 0.152s
+Parallel building time: 2.52s
+Parallel-KDTree Cts: 1.21665, Ce:0.35;  NNQuery time: 0.694s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.163s
+Parallel small node stage time: 0.152s
+Parallel building time: 2.543s
+Parallel-KDTree Cts: 1.26532, Ce:0.35;  NNQuery time: 0.678s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.176s
+Parallel small node stage time: 0.144s
+Parallel building time: 2.544s
+Parallel-KDTree Cts: 1.31593, Ce:0.35;  NNQuery time: 0.688s
+Parallel preparation time: 0.242s
+Parallel large node stage time: 2.174s
+Parallel small node stage time: 0.147s
+Parallel building time: 2.564s
+Parallel-KDTree Cts: 1.36857, Ce:0.35;  NNQuery time: 0.699s
+Parallel preparation time: 0.239s
+Parallel large node stage time: 2.174s
+Parallel small node stage time: 0.16s
+Parallel building time: 2.574s
+Parallel-KDTree Cts: 1.42331, Ce:0.35;  NNQuery time: 0.719s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.228s
+Parallel small node stage time: 0.166s
+Parallel building time: 2.62s
+Parallel-KDTree Cts: 1.48024, Ce:0.35;  NNQuery time: 0.736s
+Parallel preparation time: 0.241s
+Parallel large node stage time: 2.347s
+Parallel small node stage time: 0.152s
+Parallel building time: 2.741s
+Parallel-KDTree Cts: 1.53945, Ce:0.35;  NNQuery time: 0.758s
+Parallel preparation time: 0.23s
+Parallel large node stage time: 2.156s
+Parallel small node stage time: 0.141s
+Parallel building time: 2.528s
+Parallel-KDTree Cts: 1.60103, Ce:0.35;  NNQuery time: 0.68s
+Parallel preparation time: 0.24s
+Parallel large node stage time: 2.115s
+Parallel small node stage time: 0.142s
+Parallel building time: 2.499s
+Parallel-KDTree Cts: 1.66507, Ce:0.35;  NNQuery time: 0.766s
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.141s
+Parallel small node stage time: 0.141s
+Parallel building time: 2.51s
+Parallel-KDTree Cts: 1.73168, Ce:0.35;  NNQuery time: 0.714s
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.142s
+Parallel small node stage time: 0.14s
+Parallel building time: 2.512s
+Parallel-KDTree Cts: 1.80094, Ce:0.35;  NNQuery time: 0.713s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.148s
+Parallel small node stage time: 0.136s
+Parallel building time: 2.509s
+Parallel-KDTree Cts: 1.87298, Ce:0.35;  NNQuery time: 0.725s
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.118s
+Parallel small node stage time: 0.137s
+Parallel building time: 2.487s
+Parallel-KDTree Cts: 1.9479, Ce:0.35;  NNQuery time: 0.698s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.159s
+Parallel small node stage time: 0.162s
+Parallel building time: 2.546s
+Parallel-KDTree Cts: 1, Ce:0.45;  NNQuery time: 0.708s
+Parallel preparation time: 0.245s
+Parallel large node stage time: 2.152s
+Parallel small node stage time: 0.157s
+Parallel building time: 2.556s
+Parallel-KDTree Cts: 1.04, Ce:0.45;  NNQuery time: 0.686s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.138s
+Parallel small node stage time: 0.153s
+Parallel building time: 2.52s
+Parallel-KDTree Cts: 1.0816, Ce:0.45;  NNQuery time: 0.692s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.217s
+Parallel small node stage time: 0.157s
+Parallel building time: 2.601s
+Parallel-KDTree Cts: 1.12486, Ce:0.45;  NNQuery time: 0.684s
+Parallel preparation time: 0.235s
+Parallel large node stage time: 2.155s
+Parallel small node stage time: 0.15s
+Parallel building time: 2.542s
+Parallel-KDTree Cts: 1.16986, Ce:0.45;  NNQuery time: 0.684s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.158s
+Parallel small node stage time: 0.15s
+Parallel building time: 2.533s
+Parallel-KDTree Cts: 1.21665, Ce:0.45;  NNQuery time: 0.679s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.17s
+Parallel small node stage time: 0.149s
+Parallel building time: 2.542s
+Parallel-KDTree Cts: 1.26532, Ce:0.45;  NNQuery time: 0.681s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.149s
+Parallel small node stage time: 0.149s
+Parallel building time: 2.524s
+Parallel-KDTree Cts: 1.31593, Ce:0.45;  NNQuery time: 0.664s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.227s
+Parallel small node stage time: 0.142s
+Parallel building time: 2.595s
+Parallel-KDTree Cts: 1.36857, Ce:0.45;  NNQuery time: 0.668s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.177s
+Parallel small node stage time: 0.147s
+Parallel building time: 2.547s
+Parallel-KDTree Cts: 1.42331, Ce:0.45;  NNQuery time: 0.684s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.18s
+Parallel small node stage time: 0.145s
+Parallel building time: 2.551s
+Parallel-KDTree Cts: 1.48024, Ce:0.45;  NNQuery time: 0.709s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.167s
+Parallel small node stage time: 0.139s
+Parallel building time: 2.53s
+Parallel-KDTree Cts: 1.53945, Ce:0.45;  NNQuery time: 0.66s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.182s
+Parallel small node stage time: 0.142s
+Parallel building time: 2.55s
+Parallel-KDTree Cts: 1.60103, Ce:0.45;  NNQuery time: 0.684s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.173s
+Parallel small node stage time: 0.142s
+Parallel building time: 2.538s
+Parallel-KDTree Cts: 1.66507, Ce:0.45;  NNQuery time: 0.708s
+Parallel preparation time: 0.25s
+Parallel large node stage time: 2.218s
+Parallel small node stage time: 0.142s
+Parallel building time: 2.612s
+Parallel-KDTree Cts: 1.73168, Ce:0.45;  NNQuery time: 0.692s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.208s
+Parallel small node stage time: 0.14s
+Parallel building time: 2.573s
+Parallel-KDTree Cts: 1.80094, Ce:0.45;  NNQuery time: 0.688s
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.196s
+Parallel small node stage time: 0.138s
+Parallel building time: 2.558s
+Parallel-KDTree Cts: 1.87298, Ce:0.45;  NNQuery time: 0.688s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.179s
+Parallel small node stage time: 0.14s
+Parallel building time: 2.544s
+Parallel-KDTree Cts: 1.9479, Ce:0.45;  NNQuery time: 0.703s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.217s
+Parallel small node stage time: 0.16s
+Parallel building time: 2.605s
+Parallel-KDTree Cts: 1, Ce:0.55;  NNQuery time: 0.721s
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.242s
+Parallel small node stage time: 0.157s
+Parallel building time: 2.629s
+Parallel-KDTree Cts: 1.04, Ce:0.55;  NNQuery time: 0.71s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.186s
+Parallel small node stage time: 0.155s
+Parallel building time: 2.567s
+Parallel-KDTree Cts: 1.0816, Ce:0.55;  NNQuery time: 0.689s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.182s
+Parallel small node stage time: 0.159s
+Parallel building time: 2.566s
+Parallel-KDTree Cts: 1.12486, Ce:0.55;  NNQuery time: 0.712s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.206s
+Parallel small node stage time: 0.149s
+Parallel building time: 2.584s
+Parallel-KDTree Cts: 1.16986, Ce:0.55;  NNQuery time: 0.675s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.175s
+Parallel small node stage time: 0.15s
+Parallel building time: 2.552s
+Parallel-KDTree Cts: 1.21665, Ce:0.55;  NNQuery time: 0.677s
+Parallel preparation time: 0.246s
+Parallel large node stage time: 2.226s
+Parallel small node stage time: 0.15s
+Parallel building time: 2.622s
+Parallel-KDTree Cts: 1.26532, Ce:0.55;  NNQuery time: 0.685s
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.261s
+Parallel small node stage time: 0.145s
+Parallel building time: 2.637s
+Parallel-KDTree Cts: 1.31593, Ce:0.55;  NNQuery time: 0.692s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.196s
+Parallel small node stage time: 0.153s
+Parallel building time: 2.577s
+Parallel-KDTree Cts: 1.36857, Ce:0.55;  NNQuery time: 0.679s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.183s
+Parallel small node stage time: 0.142s
+Parallel building time: 2.549s
+Parallel-KDTree Cts: 1.42331, Ce:0.55;  NNQuery time: 0.697s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.185s
+Parallel small node stage time: 0.143s
+Parallel building time: 2.552s
+Parallel-KDTree Cts: 1.48024, Ce:0.55;  NNQuery time: 0.713s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.213s
+Parallel small node stage time: 0.148s
+Parallel building time: 2.586s
+Parallel-KDTree Cts: 1.53945, Ce:0.55;  NNQuery time: 0.706s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.213s
+Parallel small node stage time: 0.141s
+Parallel building time: 2.58s
+Parallel-KDTree Cts: 1.60103, Ce:0.55;  NNQuery time: 0.685s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.22s
+Parallel small node stage time: 0.14s
+Parallel building time: 2.584s
+Parallel-KDTree Cts: 1.66507, Ce:0.55;  NNQuery time: 0.766s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.242s
+Parallel small node stage time: 0.141s
+Parallel building time: 2.61s
+Parallel-KDTree Cts: 1.73168, Ce:0.55;  NNQuery time: 0.703s
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.27s
+Parallel small node stage time: 0.138s
+Parallel building time: 2.638s
+Parallel-KDTree Cts: 1.80094, Ce:0.55;  NNQuery time: 0.701s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.234s
+Parallel small node stage time: 0.137s
+Parallel building time: 2.598s
+Parallel-KDTree Cts: 1.87298, Ce:0.55;  NNQuery time: 0.703s
+Parallel preparation time: 0.243s
+Parallel large node stage time: 2.201s
+Parallel small node stage time: 0.132s
+Parallel building time: 2.578s
+Parallel-KDTree Cts: 1.9479, Ce:0.55;  NNQuery time: 0.711s
+Parallel preparation time: 0.238s
+Parallel large node stage time: 2.199s
+Parallel small node stage time: 0.163s
+Parallel building time: 2.601s
+Parallel-KDTree Cts: 1, Ce:0.65;  NNQuery time: 0.705s
+Parallel preparation time: 0.248s
+Parallel large node stage time: 2.221s
+Parallel small node stage time: 0.156s
+Parallel building time: 2.627s
+Parallel-KDTree Cts: 1.04, Ce:0.65;  NNQuery time: 0.701s
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.219s
+Parallel small node stage time: 0.157s
+Parallel building time: 2.606s
+Parallel-KDTree Cts: 1.0816, Ce:0.65;  NNQuery time: 0.699s
+Parallel preparation time: 0.231s
+Parallel large node stage time: 2.204s
+Parallel small node stage time: 0.152s
+Parallel building time: 2.588s
+Parallel-KDTree Cts: 1.12486, Ce:0.65;  NNQuery time: 0.711s
+Parallel preparation time: 0.242s
+Parallel large node stage time: 2.208s
+Parallel small node stage time: 0.154s
+Parallel building time: 2.605s
+Parallel-KDTree Cts: 1.16986, Ce:0.65;  NNQuery time: 0.69s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.215s
+Parallel small node stage time: 0.15s
+Parallel building time: 2.593s
+Parallel-KDTree Cts: 1.21665, Ce:0.65;  NNQuery time: 0.682s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.237s
+Parallel small node stage time: 0.15s
+Parallel building time: 2.614s
+Parallel-KDTree Cts: 1.26532, Ce:0.65;  NNQuery time: 0.705s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.212s
+Parallel small node stage time: 0.149s
+Parallel building time: 2.586s
+Parallel-KDTree Cts: 1.31593, Ce:0.65;  NNQuery time: 0.685s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.248s
+Parallel small node stage time: 0.149s
+Parallel building time: 2.625s
+Parallel-KDTree Cts: 1.36857, Ce:0.65;  NNQuery time: 0.692s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.312s
+Parallel small node stage time: 0.147s
+Parallel building time: 2.686s
+Parallel-KDTree Cts: 1.42331, Ce:0.65;  NNQuery time: 0.701s
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.283s
+Parallel small node stage time: 0.153s
+Parallel building time: 2.665s
+Parallel-KDTree Cts: 1.48024, Ce:0.65;  NNQuery time: 0.689s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.234s
+Parallel small node stage time: 0.144s
+Parallel building time: 2.605s
+Parallel-KDTree Cts: 1.53945, Ce:0.65;  NNQuery time: 0.68s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.227s
+Parallel small node stage time: 0.143s
+Parallel building time: 2.596s
+Parallel-KDTree Cts: 1.60103, Ce:0.65;  NNQuery time: 0.684s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.338s
+Parallel small node stage time: 0.148s
+Parallel building time: 2.713s
+Parallel-KDTree Cts: 1.66507, Ce:0.65;  NNQuery time: 0.715s
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.289s
+Parallel small node stage time: 0.145s
+Parallel building time: 2.664s
+Parallel-KDTree Cts: 1.73168, Ce:0.65;  NNQuery time: 0.708s
+Parallel preparation time: 0.245s
+Parallel large node stage time: 2.227s
+Parallel small node stage time: 0.139s
+Parallel building time: 2.613s
+Parallel-KDTree Cts: 1.80094, Ce:0.65;  NNQuery time: 0.701s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.226s
+Parallel small node stage time: 0.139s
+Parallel building time: 2.59s
+Parallel-KDTree Cts: 1.87298, Ce:0.65;  NNQuery time: 0.7s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.308s
+Parallel small node stage time: 0.141s
+Parallel building time: 2.675s
+Parallel-KDTree Cts: 1.9479, Ce:0.65;  NNQuery time: 0.719s
+Parallel preparation time: 0.244s
+Parallel large node stage time: 2.261s
+Parallel small node stage time: 0.166s
+Parallel building time: 2.672s
+Parallel-KDTree Cts: 1, Ce:0.75;  NNQuery time: 0.715s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.279s
+Parallel small node stage time: 0.158s
+Parallel building time: 2.665s
+Parallel-KDTree Cts: 1.04, Ce:0.75;  NNQuery time: 0.713s
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.229s
+Parallel small node stage time: 0.158s
+Parallel building time: 2.612s
+Parallel-KDTree Cts: 1.0816, Ce:0.75;  NNQuery time: 0.706s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.309s
+Parallel small node stage time: 0.156s
+Parallel building time: 2.692s
+Parallel-KDTree Cts: 1.12486, Ce:0.75;  NNQuery time: 0.699s
+Parallel preparation time: 0.236s
+Parallel large node stage time: 2.975s
+Parallel small node stage time: 0.154s
+Parallel building time: 3.365s
+Parallel-KDTree Cts: 1.16986, Ce:0.75;  NNQuery time: 0.709s
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.236s
+Parallel small node stage time: 0.151s
+Parallel building time: 2.614s
+Parallel-KDTree Cts: 1.21665, Ce:0.75;  NNQuery time: 0.705s
+Parallel preparation time: 0.234s
+Parallel large node stage time: 2.246s
+Parallel small node stage time: 0.151s
+Parallel building time: 2.632s
+Parallel-KDTree Cts: 1.26532, Ce:0.75;  NNQuery time: 0.686s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.263s
+Parallel small node stage time: 0.15s
+Parallel building time: 2.639s
+Parallel-KDTree Cts: 1.31593, Ce:0.75;  NNQuery time: 0.699s
+Parallel preparation time: 0.233s
+Parallel large node stage time: 2.332s
+Parallel small node stage time: 0.148s
+Parallel building time: 2.715s
+Parallel-KDTree Cts: 1.36857, Ce:0.75;  NNQuery time: 0.721s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.315s
+Parallel small node stage time: 0.155s
+Parallel building time: 2.697s
+Parallel-KDTree Cts: 1.42331, Ce:0.75;  NNQuery time: 0.709s
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.812s
+Parallel small node stage time: 0.17s
+Parallel building time: 3.209s
+Parallel-KDTree Cts: 1.48024, Ce:0.75;  NNQuery time: 0.795s
+Parallel preparation time: 0.244s
+Parallel large node stage time: 2.658s
+Parallel small node stage time: 0.166s
+Parallel building time: 3.068s
+Parallel-KDTree Cts: 1.53945, Ce:0.75;  NNQuery time: 0.804s
+Parallel preparation time: 0.262s
+Parallel large node stage time: 2.841s
+Parallel small node stage time: 0.161s
+Parallel building time: 3.265s
+Parallel-KDTree Cts: 1.60103, Ce:0.75;  NNQuery time: 0.804s
+Parallel preparation time: 0.247s
+Parallel large node stage time: 2.623s
+Parallel small node stage time: 0.159s
+Parallel building time: 3.031s
+Parallel-KDTree Cts: 1.66507, Ce:0.75;  NNQuery time: 0.779s
+Parallel preparation time: 0.259s
+Parallel large node stage time: 2.672s
+Parallel small node stage time: 0.183s
+Parallel building time: 3.115s
+Parallel-KDTree Cts: 1.73168, Ce:0.75;  NNQuery time: 0.838s
+Parallel preparation time: 0.264s
+Parallel large node stage time: 2.786s
+Parallel small node stage time: 0.172s
+Parallel building time: 3.224s
+Parallel-KDTree Cts: 1.80094, Ce:0.75;  NNQuery time: 0.82s
+Parallel preparation time: 0.274s
+Parallel large node stage time: 2.825s
+Parallel small node stage time: 0.179s
+Parallel building time: 3.279s
+Parallel-KDTree Cts: 1.87298, Ce:0.75;  NNQuery time: 0.892s
+Parallel preparation time: 0.265s
+Parallel large node stage time: 2.853s
+Parallel small node stage time: 0.157s
+Parallel building time: 3.276s
+Parallel-KDTree Cts: 1.9479, Ce:0.75;  NNQuery time: 0.792s
+Parallel preparation time: 0.248s
+Parallel large node stage time: 2.689s
+Parallel small node stage time: 0.194s
+Parallel building time: 3.133s
+Parallel-KDTree Cts: 1, Ce:0.85;  NNQuery time: 0.831s
+Parallel preparation time: 0.264s
+Parallel large node stage time: 3.136s
+Parallel small node stage time: 0.22s
+Parallel building time: 3.62s
+Parallel-KDTree Cts: 1.04, Ce:0.85;  NNQuery time: 0.857s
+Parallel preparation time: 0.285s
+Parallel large node stage time: 2.937s
+Parallel small node stage time: 0.212s
+Parallel building time: 3.435s
+Parallel-KDTree Cts: 1.0816, Ce:0.85;  NNQuery time: 0.855s
+Parallel preparation time: 0.256s
+Parallel large node stage time: 2.87s
+Parallel small node stage time: 0.212s
+Parallel building time: 3.339s
+Parallel-KDTree Cts: 1.12486, Ce:0.85;  NNQuery time: 0.838s
+Parallel preparation time: 0.262s
+Parallel large node stage time: 2.975s
+Parallel small node stage time: 0.203s
+Parallel building time: 3.442s
+Parallel-KDTree Cts: 1.16986, Ce:0.85;  NNQuery time: 0.753s
+Parallel preparation time: 0.249s
+Parallel large node stage time: 2.763s
+Parallel small node stage time: 0.204s
+Parallel building time: 3.218s
+Parallel-KDTree Cts: 1.21665, Ce:0.85;  NNQuery time: 0.75s
+Parallel preparation time: 0.249s
+Parallel large node stage time: 2.927s
+Parallel small node stage time: 0.197s
+Parallel building time: 3.374s
+Parallel-KDTree Cts: 1.26532, Ce:0.85;  NNQuery time: 0.782s
+Parallel preparation time: 0.252s
+Parallel large node stage time: 2.72s
+Parallel small node stage time: 0.193s
+Parallel building time: 3.167s
+Parallel-KDTree Cts: 1.31593, Ce:0.85;  NNQuery time: 0.781s
+Parallel preparation time: 0.263s
+Parallel large node stage time: 3.053s
+Parallel small node stage time: 0.204s
+Parallel building time: 3.52s
+Parallel-KDTree Cts: 1.36857, Ce:0.85;  NNQuery time: 0.916s
+Parallel preparation time: 0.264s
+Parallel large node stage time: 2.936s
+Parallel small node stage time: 0.209s
+Parallel building time: 3.41s
+Parallel-KDTree Cts: 1.42331, Ce:0.85;  NNQuery time: 0.898s
+Parallel preparation time: 0.266s
+Parallel large node stage time: 2.97s
+Parallel small node stage time: 0.203s
+Parallel building time: 3.44s
+Parallel-KDTree Cts: 1.48024, Ce:0.85;  NNQuery time: 0.793s
+Parallel preparation time: 0.266s
+Parallel large node stage time: 2.976s
+Parallel small node stage time: 0.207s
+Parallel building time: 3.45s
+Parallel-KDTree Cts: 1.53945, Ce:0.85;  NNQuery time: 0.875s
+Parallel preparation time: 0.27s
+Parallel large node stage time: 2.874s
+Parallel small node stage time: 0.192s
+Parallel building time: 3.338s
+Parallel-KDTree Cts: 1.60103, Ce:0.85;  NNQuery time: 0.773s
+Parallel preparation time: 0.256s
+Parallel large node stage time: 2.814s
+Parallel small node stage time: 0.192s
+Parallel building time: 3.264s
+Parallel-KDTree Cts: 1.66507, Ce:0.85;  NNQuery time: 0.851s
+Parallel preparation time: 0.268s
+Parallel large node stage time: 2.947s
+Parallel small node stage time: 0.201s
+Parallel building time: 3.418s
+Parallel-KDTree Cts: 1.73168, Ce:0.85;  NNQuery time: 0.848s
+Parallel preparation time: 0.276s
+Parallel large node stage time: 2.957s
+Parallel small node stage time: 0.203s
+Parallel building time: 3.437s
+Parallel-KDTree Cts: 1.80094, Ce:0.85;  NNQuery time: 0.837s
+Parallel preparation time: 0.253s
+Parallel large node stage time: 2.806s
+Parallel small node stage time: 0.183s
+Parallel building time: 3.244s
+Parallel-KDTree Cts: 1.87298, Ce:0.85;  NNQuery time: 0.826s
+Parallel preparation time: 0.252s
+Parallel large node stage time: 2.814s
+Parallel small node stage time: 0.182s
+Parallel building time: 3.249s
+Parallel-KDTree Cts: 1.9479, Ce:0.85;  NNQuery time: 0.811s
+Parallel preparation time: 0.253s
+Parallel large node stage time: 2.8s
+Parallel small node stage time: 0.223s
+Parallel building time: 3.278s
+Parallel-KDTree Cts: 1, Ce:0.95;  NNQuery time: 0.82s
+Parallel preparation time: 0.253s
+Parallel large node stage time: 2.835s
+Parallel small node stage time: 0.21s
+Parallel building time: 3.3s
+Parallel-KDTree Cts: 1.04, Ce:0.95;  NNQuery time: 0.775s
+Parallel preparation time: 0.253s
+Parallel large node stage time: 2.823s
+Parallel small node stage time: 0.207s
+Parallel building time: 3.284s
+Parallel-KDTree Cts: 1.0816, Ce:0.95;  NNQuery time: 0.807s
+Parallel preparation time: 0.272s
+Parallel large node stage time: 2.919s
+Parallel small node stage time: 0.209s
+Parallel building time: 3.4s
+Parallel-KDTree Cts: 1.12486, Ce:0.95;  NNQuery time: 0.81s
+Parallel preparation time: 0.26s
+Parallel large node stage time: 2.876s
+Parallel small node stage time: 0.22s
+Parallel building time: 3.357s
+Parallel-KDTree Cts: 1.16986, Ce:0.95;  NNQuery time: 0.835s
+Parallel preparation time: 0.278s
+Parallel large node stage time: 2.825s
+Parallel small node stage time: 0.203s
+Parallel building time: 3.307s
+Parallel-KDTree Cts: 1.21665, Ce:0.95;  NNQuery time: 0.787s
+Parallel preparation time: 0.255s
+Parallel large node stage time: 2.785s
+Parallel small node stage time: 0.196s
+Parallel building time: 3.238s
+Parallel-KDTree Cts: 1.26532, Ce:0.95;  NNQuery time: 0.789s
+Parallel preparation time: 0.253s
+Parallel large node stage time: 2.807s
+Parallel small node stage time: 0.194s
+Parallel building time: 3.254s
+Parallel-KDTree Cts: 1.31593, Ce:0.95;  NNQuery time: 0.779s
+Parallel preparation time: 0.271s
+Parallel large node stage time: 2.863s
+Parallel small node stage time: 0.191s
+Parallel building time: 3.325s
+Parallel-KDTree Cts: 1.36857, Ce:0.95;  NNQuery time: 0.786s
+Parallel preparation time: 0.252s
+Parallel large node stage time: 2.832s
+Parallel small node stage time: 0.186s
+Parallel building time: 3.272s
+Parallel-KDTree Cts: 1.42331, Ce:0.95;  NNQuery time: 0.809s
+Parallel preparation time: 0.261s
+Parallel large node stage time: 2.951s
+Parallel small node stage time: 0.18s
+Parallel building time: 3.393s
+Parallel-KDTree Cts: 1.48024, Ce:0.95;  NNQuery time: 0.785s
+Parallel preparation time: 0.252s
+Parallel large node stage time: 2.81s
+Parallel small node stage time: 0.205s
+Parallel building time: 3.269s
+Parallel-KDTree Cts: 1.53945, Ce:0.95;  NNQuery time: 0.818s
+Parallel preparation time: 0.258s
+Parallel large node stage time: 2.882s
+Parallel small node stage time: 0.183s
+Parallel building time: 3.324s
+Parallel-KDTree Cts: 1.60103, Ce:0.95;  NNQuery time: 0.778s
+Parallel preparation time: 0.252s
+Parallel large node stage time: 2.873s
+Parallel small node stage time: 0.18s
+Parallel building time: 3.306s
+Parallel-KDTree Cts: 1.66507, Ce:0.95;  NNQuery time: 0.801s
+Parallel preparation time: 0.25s
+Parallel large node stage time: 2.828s
+Parallel small node stage time: 0.185s
+Parallel building time: 3.265s
+Parallel-KDTree Cts: 1.73168, Ce:0.95;  NNQuery time: 0.799s
+Parallel preparation time: 0.252s
+Parallel large node stage time: 2.831s
+Parallel small node stage time: 0.183s
+Parallel building time: 3.268s
+Parallel-KDTree Cts: 1.80094, Ce:0.95;  NNQuery time: 0.821s
+Parallel preparation time: 0.264s
+Parallel large node stage time: 2.826s
+Parallel small node stage time: 0.18s
+Parallel building time: 3.272s
+Parallel-KDTree Cts: 1.87298, Ce:0.95;  NNQuery time: 0.814s
+Parallel preparation time: 0.273s
+Parallel large node stage time: 2.823s
+Parallel small node stage time: 0.182s
+Parallel building time: 3.279s
+Parallel-KDTree Cts: 1.9479, Ce:0.95;  NNQuery time: 0.803s
+**********************End**********************
+This mode is only display via QuadTree;

@@ -1,0 +1,439 @@
+Key Usage:
+  Q/q: switch to QuadTree mode (default)
+  C/c: switch to Serial-KdTree mode
+  P/p: switch to Parallel-KdTree mode
+  S/s: range search
+  N/n: nearest search
+  A/a: load road data
+  B/b: load taxi data
+  W/w: switch to station mode
+  R/r: switch to road mode
+  T/t: switch to taxi mode
+  X/x: show tree nodes
+  +  : increase point size
+  -  : decrease point size
+  1  : TEST1: Comparison of Building Time between Parallel-KDTree and Serial-KDTree
+  2  : TEST2: QuadTree NN Query Analysis
+  3  : TEST3: Serial-KDTree NN Query Analysis
+  4  : TEST4: Parallel-KDTree NN Query Analysis
+  5  : TEST5: QuadTree Range Query Analysis for the Best Parameter
+  6  : TEST6: Serial-KDTree Range Query Analysis for the Best Parameter
+  7  : TEST7: Parallel-KDTree Range Query Analysis for the Best Parameter
+  ESC: quit
+
+road number: 12433
+station number: 488
+-----START BUILDING FOR STATIONS-----
+Quad Tree building time: 0s
+Serial preparation time: 0s
+Serial large node stage time: 0.003s
+Serial small node stage time: 0.001s
+Serial building time: 0.004s
+Parallel preparation time: 0.002s
+Parallel large node stage time: 0.003s
+Parallel small node stage time: 0.005s
+Parallel building time: 0.014s
+-----------------END-----------------
+*********************Start*********************
+TEST2: QuadTree NN Query Analysis
+taxi number: 186781
+-------START BUILDING FOR TAXI-------
+It will take about 2 minutes in debug mode...
+Quad Tree building time: 0s
+Serial preparation time: 0.253s
+Serial large node stage time: 3.808s
+Serial small node stage time: 0.169s
+Serial building time: 4.232s
+Parallel preparation time: 0.232s
+Parallel large node stage time: 2.192s
+Parallel small node stage time: 0.127s
+Parallel building time: 2.553s
+-----------------END-----------------
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+Quad Tree building time: 0s
+Quad Tree Capacity: 20;  NNQuery time: 0.571s
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+Quad Tree building time: 0s
+Quad Tree Capacity: 21;  NNQuery time: 0.582s
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+Quad Tree building time: 0s
+Quad Tree Capacity: 22;  NNQuery time: 0.578s
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+There are 24 points sharing the same coordination! Please increase the capacity!
+Quad Tree building time: 0s
+Quad Tree Capacity: 23;  NNQuery time: 0.585s
+Quad Tree building time: 0s
+Quad Tree Capacity: 24;  NNQuery time: 0.589s
+Quad Tree building time: 0s
+Quad Tree Capacity: 25;  NNQuery time: 0.6s
+Quad Tree building time: 0s
+Quad Tree Capacity: 26;  NNQuery time: 0.618s
+Quad Tree building time: 0s
+Quad Tree Capacity: 27;  NNQuery time: 0.616s
+Quad Tree building time: 0s
+Quad Tree Capacity: 28;  NNQuery time: 0.625s
+Quad Tree building time: 0s
+Quad Tree Capacity: 29;  NNQuery time: 0.616s
+Quad Tree building time: 0s
+Quad Tree Capacity: 30;  NNQuery time: 0.634s
+Quad Tree building time: 0s
+Quad Tree Capacity: 31;  NNQuery time: 0.636s
+Quad Tree building time: 0s
+Quad Tree Capacity: 32;  NNQuery time: 0.644s
+Quad Tree building time: 0s
+Quad Tree Capacity: 33;  NNQuery time: 0.639s
+Quad Tree building time: 0s
+Quad Tree Capacity: 34;  NNQuery time: 0.68s
+Quad Tree building time: 0s
+Quad Tree Capacity: 35;  NNQuery time: 0.677s
+Quad Tree building time: 0s
+Quad Tree Capacity: 36;  NNQuery time: 0.686s
+Quad Tree building time: 0s
+Quad Tree Capacity: 37;  NNQuery time: 0.694s
+Quad Tree building time: 0s
+Quad Tree Capacity: 38;  NNQuery time: 0.707s
+Quad Tree building time: 0s
+Quad Tree Capacity: 39;  NNQuery time: 0.718s
+Quad Tree building time: 0s
+Quad Tree Capacity: 40;  NNQuery time: 0.709s
+Quad Tree building time: 0s
+Quad Tree Capacity: 41;  NNQuery time: 0.725s
+Quad Tree building time: 0s
+Quad Tree Capacity: 42;  NNQuery time: 0.725s
+Quad Tree building time: 0s
+Quad Tree Capacity: 43;  NNQuery time: 0.731s
+Quad Tree building time: 0s
+Quad Tree Capacity: 44;  NNQuery time: 0.741s
+Quad Tree building time: 0s
+Quad Tree Capacity: 45;  NNQuery time: 0.759s
+Quad Tree building time: 0s
+Quad Tree Capacity: 46;  NNQuery time: 0.75s
+Quad Tree building time: 0s
+Quad Tree Capacity: 47;  NNQuery time: 0.759s
+Quad Tree building time: 0s
+Quad Tree Capacity: 48;  NNQuery time: 0.773s
+Quad Tree building time: 0s
+Quad Tree Capacity: 49;  NNQuery time: 0.791s
+Quad Tree building time: 0s
+Quad Tree Capacity: 50;  NNQuery time: 0.825s
+Quad Tree building time: 0s
+Quad Tree Capacity: 51;  NNQuery time: 0.803s
+Quad Tree building time: 0s
+Quad Tree Capacity: 52;  NNQuery time: 0.811s
+Quad Tree building time: 0s
+Quad Tree Capacity: 53;  NNQuery time: 0.813s
+Quad Tree building time: 0s
+Quad Tree Capacity: 54;  NNQuery time: 0.825s
+Quad Tree building time: 0s
+Quad Tree Capacity: 55;  NNQuery time: 0.844s
+Quad Tree building time: 0s
+Quad Tree Capacity: 56;  NNQuery time: 0.85s
+Quad Tree building time: 0s
+Quad Tree Capacity: 57;  NNQuery time: 0.866s
+Quad Tree building time: 0s
+Quad Tree Capacity: 58;  NNQuery time: 0.871s
+Quad Tree building time: 0s
+Quad Tree Capacity: 59;  NNQuery time: 0.882s
+Quad Tree building time: 0s
+Quad Tree Capacity: 60;  NNQuery time: 0.888s
+Quad Tree building time: 0s
+Quad Tree Capacity: 61;  NNQuery time: 0.92s
+Quad Tree building time: 0s
+Quad Tree Capacity: 62;  NNQuery time: 0.905s
+Quad Tree building time: 0s
+Quad Tree Capacity: 63;  NNQuery time: 0.928s
+Quad Tree building time: 0s
+Quad Tree Capacity: 64;  NNQuery time: 0.933s
+Quad Tree building time: 0s
+Quad Tree Capacity: 65;  NNQuery time: 0.931s
+Quad Tree building time: 0s
+Quad Tree Capacity: 66;  NNQuery time: 0.933s
+Quad Tree building time: 0s
+Quad Tree Capacity: 67;  NNQuery time: 0.976s
+Quad Tree building time: 0s
+Quad Tree Capacity: 68;  NNQuery time: 0.953s
+Quad Tree building time: 0s
+Quad Tree Capacity: 69;  NNQuery time: 0.962s
+Quad Tree building time: 0s
+Quad Tree Capacity: 70;  NNQuery time: 0.963s
+Quad Tree building time: 0s
+Quad Tree Capacity: 71;  NNQuery time: 0.982s
+Quad Tree building time: 0s
+Quad Tree Capacity: 72;  NNQuery time: 1.017s
+Quad Tree building time: 0s
+Quad Tree Capacity: 73;  NNQuery time: 1.029s
+Quad Tree building time: 0s
+Quad Tree Capacity: 74;  NNQuery time: 1.002s
+Quad Tree building time: 0s
+Quad Tree Capacity: 75;  NNQuery time: 1.008s
+Quad Tree building time: 0s
+Quad Tree Capacity: 76;  NNQuery time: 1.036s
+Quad Tree building time: 0s
+Quad Tree Capacity: 77;  NNQuery time: 1.032s
+Quad Tree building time: 0s
+Quad Tree Capacity: 78;  NNQuery time: 1.047s
+Quad Tree building time: 0s
+Quad Tree Capacity: 79;  NNQuery time: 1.062s
+Quad Tree building time: 0s
+Quad Tree Capacity: 80;  NNQuery time: 1.087s
+Quad Tree building time: 0s
+Quad Tree Capacity: 81;  NNQuery time: 1.064s
+Quad Tree building time: 0s
+Quad Tree Capacity: 82;  NNQuery time: 1.099s
+Quad Tree building time: 0s
+Quad Tree Capacity: 83;  NNQuery time: 1.1s
+Quad Tree building time: 0s
+Quad Tree Capacity: 84;  NNQuery time: 1.092s
+Quad Tree building time: 0s
+Quad Tree Capacity: 85;  NNQuery time: 1.092s
+Quad Tree building time: 0s
+Quad Tree Capacity: 86;  NNQuery time: 1.122s
+Quad Tree building time: 0s
+Quad Tree Capacity: 87;  NNQuery time: 1.125s
+Quad Tree building time: 0s
+Quad Tree Capacity: 88;  NNQuery time: 1.147s
+Quad Tree building time: 0s
+Quad Tree Capacity: 89;  NNQuery time: 1.148s
+Quad Tree building time: 0s
+Quad Tree Capacity: 90;  NNQuery time: 1.155s
+Quad Tree building time: 0s
+Quad Tree Capacity: 91;  NNQuery time: 1.17s
+Quad Tree building time: 0s
+Quad Tree Capacity: 92;  NNQuery time: 1.169s
+Quad Tree building time: 0s
+Quad Tree Capacity: 93;  NNQuery time: 1.172s
+Quad Tree building time: 0s
+Quad Tree Capacity: 94;  NNQuery time: 1.192s
+Quad Tree building time: 0s
+Quad Tree Capacity: 95;  NNQuery time: 1.175s
+Quad Tree building time: 0s
+Quad Tree Capacity: 96;  NNQuery time: 1.175s
+Quad Tree building time: 0s
+Quad Tree Capacity: 97;  NNQuery time: 1.191s
+Quad Tree building time: 0s
+Quad Tree Capacity: 98;  NNQuery time: 1.203s
+Quad Tree building time: 0s
+Quad Tree Capacity: 99;  NNQuery time: 1.201s
+Quad Tree building time: 0s
+Quad Tree Capacity: 100;  NNQuery time: 1.218s
+Quad Tree building time: 0s
+Quad Tree Capacity: 101;  NNQuery time: 1.218s
+Quad Tree building time: 0s
+Quad Tree Capacity: 102;  NNQuery time: 1.249s
+Quad Tree building time: 0s
+Quad Tree Capacity: 103;  NNQuery time: 1.252s
+Quad Tree building time: 0s
+Quad Tree Capacity: 104;  NNQuery time: 1.246s
+Quad Tree building time: 0s
+Quad Tree Capacity: 105;  NNQuery time: 1.261s
+Quad Tree building time: 0s
+Quad Tree Capacity: 106;  NNQuery time: 1.282s
+Quad Tree building time: 0s
+Quad Tree Capacity: 107;  NNQuery time: 1.311s
+Quad Tree building time: 0s
+Quad Tree Capacity: 108;  NNQuery time: 1.304s
+Quad Tree building time: 0s
+Quad Tree Capacity: 109;  NNQuery time: 1.328s
+Quad Tree building time: 0s
+Quad Tree Capacity: 110;  NNQuery time: 1.329s
+Quad Tree building time: 0s
+Quad Tree Capacity: 111;  NNQuery time: 1.33s
+Quad Tree building time: 0s
+Quad Tree Capacity: 112;  NNQuery time: 1.34s
+Quad Tree building time: 0s
+Quad Tree Capacity: 113;  NNQuery time: 1.372s
+Quad Tree building time: 0s
+Quad Tree Capacity: 114;  NNQuery time: 1.514s
+Quad Tree building time: 0s
+Quad Tree Capacity: 115;  NNQuery time: 1.449s
+Quad Tree building time: 0s
+Quad Tree Capacity: 116;  NNQuery time: 1.372s
+Quad Tree building time: 0s
+Quad Tree Capacity: 117;  NNQuery time: 1.4s
+Quad Tree building time: 0s
+Quad Tree Capacity: 118;  NNQuery time: 1.402s
+Quad Tree building time: 0s
+Quad Tree Capacity: 119;  NNQuery time: 1.395s
+Quad Tree building time: 0s
+Quad Tree Capacity: 120;  NNQuery time: 1.402s
+Quad Tree building time: 0s
+Quad Tree Capacity: 121;  NNQuery time: 1.423s
+Quad Tree building time: 0s
+Quad Tree Capacity: 122;  NNQuery time: 1.45s
+Quad Tree building time: 0s
+Quad Tree Capacity: 123;  NNQuery time: 1.408s
+Quad Tree building time: 0s
+Quad Tree Capacity: 124;  NNQuery time: 1.444s
+Quad Tree building time: 0s
+Quad Tree Capacity: 125;  NNQuery time: 1.447s
+Quad Tree building time: 0s
+Quad Tree Capacity: 126;  NNQuery time: 1.457s
+Quad Tree building time: 0s
+Quad Tree Capacity: 127;  NNQuery time: 1.458s
+Quad Tree building time: 0s
+Quad Tree Capacity: 128;  NNQuery time: 1.447s
+Quad Tree building time: 0s
+Quad Tree Capacity: 129;  NNQuery time: 1.464s
+Quad Tree building time: 0s
+Quad Tree Capacity: 130;  NNQuery time: 1.466s
+Quad Tree building time: 0s
+Quad Tree Capacity: 131;  NNQuery time: 1.501s
+Quad Tree building time: 0s
+Quad Tree Capacity: 132;  NNQuery time: 1.516s
+Quad Tree building time: 0s
+Quad Tree Capacity: 133;  NNQuery time: 1.504s
+Quad Tree building time: 0s
+Quad Tree Capacity: 134;  NNQuery time: 1.517s
+Quad Tree building time: 0s
+Quad Tree Capacity: 135;  NNQuery time: 1.511s
+Quad Tree building time: 0s
+Quad Tree Capacity: 136;  NNQuery time: 1.534s
+Quad Tree building time: 0s
+Quad Tree Capacity: 137;  NNQuery time: 1.526s
+Quad Tree building time: 0s
+Quad Tree Capacity: 138;  NNQuery time: 1.542s
+Quad Tree building time: 0s
+Quad Tree Capacity: 139;  NNQuery time: 1.603s
+Quad Tree building time: 0s
+Quad Tree Capacity: 140;  NNQuery time: 1.561s
+Quad Tree building time: 0s
+Quad Tree Capacity: 141;  NNQuery time: 1.563s
+Quad Tree building time: 0s
+Quad Tree Capacity: 142;  NNQuery time: 1.575s
+Quad Tree building time: 0s
+Quad Tree Capacity: 143;  NNQuery time: 1.566s
+Quad Tree building time: 0s
+Quad Tree Capacity: 144;  NNQuery time: 1.575s
+Quad Tree building time: 0s
+Quad Tree Capacity: 145;  NNQuery time: 1.576s
+Quad Tree building time: 0s
+Quad Tree Capacity: 146;  NNQuery time: 1.588s
+Quad Tree building time: 0s
+Quad Tree Capacity: 147;  NNQuery time: 1.589s
+Quad Tree building time: 0s
+Quad Tree Capacity: 148;  NNQuery time: 1.569s
+Quad Tree building time: 0s
+Quad Tree Capacity: 149;  NNQuery time: 1.6s
+Quad Tree building time: 0s
+Quad Tree Capacity: 150;  NNQuery time: 1.585s
+Quad Tree building time: 0s
+Quad Tree Capacity: 151;  NNQuery time: 1.587s
+Quad Tree building time: 0s
+Quad Tree Capacity: 152;  NNQuery time: 1.598s
+Quad Tree building time: 0s
+Quad Tree Capacity: 153;  NNQuery time: 1.628s
+Quad Tree building time: 0s
+Quad Tree Capacity: 154;  NNQuery time: 1.637s
+Quad Tree building time: 0s
+Quad Tree Capacity: 155;  NNQuery time: 1.636s
+Quad Tree building time: 0s
+Quad Tree Capacity: 156;  NNQuery time: 1.686s
+Quad Tree building time: 0s
+Quad Tree Capacity: 157;  NNQuery time: 1.694s
+Quad Tree building time: 0s
+Quad Tree Capacity: 158;  NNQuery time: 1.684s
+Quad Tree building time: 0s
+Quad Tree Capacity: 159;  NNQuery time: 1.691s
+Quad Tree building time: 0s
+Quad Tree Capacity: 160;  NNQuery time: 1.693s
+Quad Tree building time: 0s
+Quad Tree Capacity: 161;  NNQuery time: 1.705s
+Quad Tree building time: 0s
+Quad Tree Capacity: 162;  NNQuery time: 1.72s
+Quad Tree building time: 0s
+Quad Tree Capacity: 163;  NNQuery time: 1.724s
+Quad Tree building time: 0s
+Quad Tree Capacity: 164;  NNQuery time: 1.73s
+Quad Tree building time: 0s
+Quad Tree Capacity: 165;  NNQuery time: 1.751s
+Quad Tree building time: 0s
+Quad Tree Capacity: 166;  NNQuery time: 1.774s
+Quad Tree building time: 0s
+Quad Tree Capacity: 167;  NNQuery time: 1.764s
+Quad Tree building time: 0s
+Quad Tree Capacity: 168;  NNQuery time: 1.76s
+Quad Tree building time: 0s
+Quad Tree Capacity: 169;  NNQuery time: 1.77s
+Quad Tree building time: 0s
+Quad Tree Capacity: 170;  NNQuery time: 1.798s
+Quad Tree building time: 0s
+Quad Tree Capacity: 171;  NNQuery time: 1.814s
+Quad Tree building time: 0s
+Quad Tree Capacity: 172;  NNQuery time: 1.822s
+Quad Tree building time: 0s
+Quad Tree Capacity: 173;  NNQuery time: 1.808s
+Quad Tree building time: 0s
+Quad Tree Capacity: 174;  NNQuery time: 1.853s
+Quad Tree building time: 0s
+Quad Tree Capacity: 175;  NNQuery time: 1.811s
+Quad Tree building time: 0s
+Quad Tree Capacity: 176;  NNQuery time: 1.834s
+Quad Tree building time: 0s
+Quad Tree Capacity: 177;  NNQuery time: 1.874s
+Quad Tree building time: 0s
+Quad Tree Capacity: 178;  NNQuery time: 1.843s
+Quad Tree building time: 0s
+Quad Tree Capacity: 179;  NNQuery time: 1.882s
+Quad Tree building time: 0s
+Quad Tree Capacity: 180;  NNQuery time: 1.894s
+Quad Tree building time: 0s
+Quad Tree Capacity: 181;  NNQuery time: 1.936s
+Quad Tree building time: 0s
+Quad Tree Capacity: 182;  NNQuery time: 2.009s
+Quad Tree building time: 0s
+Quad Tree Capacity: 183;  NNQuery time: 2.005s
+Quad Tree building time: 0s
+Quad Tree Capacity: 184;  NNQuery time: 1.98s
+Quad Tree building time: 0s
+Quad Tree Capacity: 185;  NNQuery time: 2.065s
+Quad Tree building time: 0s
+Quad Tree Capacity: 186;  NNQuery time: 2.016s
+Quad Tree building time: 0s
+Quad Tree Capacity: 187;  NNQuery time: 2.058s
+Quad Tree building time: 0s
+Quad Tree Capacity: 188;  NNQuery time: 2.046s
+Quad Tree building time: 0s
+Quad Tree Capacity: 189;  NNQuery time: 2.114s
+Quad Tree building time: 0s
+Quad Tree Capacity: 190;  NNQuery time: 2.024s
+Quad Tree building time: 0s
+Quad Tree Capacity: 191;  NNQuery time: 2.089s
+Quad Tree building time: 0s
+Quad Tree Capacity: 192;  NNQuery time: 2.123s
+Quad Tree building time: 0s
+Quad Tree Capacity: 193;  NNQuery time: 2.016s
+Quad Tree building time: 0s
+Quad Tree Capacity: 194;  NNQuery time: 2.068s
+Quad Tree building time: 0s
+Quad Tree Capacity: 195;  NNQuery time: 2.013s
+Quad Tree building time: 0s
+Quad Tree Capacity: 196;  NNQuery time: 2.044s
+Quad Tree building time: 0s
+Quad Tree Capacity: 197;  NNQuery time: 2.079s
+Quad Tree building time: 0s
+Quad Tree Capacity: 198;  NNQuery time: 2.035s
+Quad Tree building time: 0s
+Quad Tree Capacity: 199;  NNQuery time: 2.116s
+Quad Tree building time: 0s
+Quad Tree Capacity: 200;  NNQuery time: 2.106s
+**********************End**********************
+This mode is only display via QuadTree;

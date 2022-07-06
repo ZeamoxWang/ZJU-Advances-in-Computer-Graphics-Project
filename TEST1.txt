@@ -1,0 +1,777 @@
+Key Usage:
+  Q/q: switch to QuadTree mode (default)
+  C/c: switch to Serial-KdTree mode
+  P/p: switch to Parallel-KdTree mode
+  S/s: range search
+  N/n: nearest search
+  A/a: load road data
+  B/b: load taxi data
+  W/w: switch to station mode
+  R/r: switch to road mode
+  T/t: switch to taxi mode
+  X/x: show tree nodes
+  +  : increase point size
+  -  : decrease point size
+  1  : TEST1: Comparison of Building Time between Parallel-KDTree and Serial-KDTree
+  2  : TEST2: QuadTree NN Query Analysis
+  3  : TEST3: Serial-KDTree NN Query Analysis
+  4  : TEST4: Parallel-KDTree NN Query Analysis
+  5  : TEST5: QuadTree Range Query Analysis for the Best Parameter
+  6  : TEST6: Serial-KDTree Range Query Analysis for the Best Parameter
+  7  : TEST7: Parallel-KDTree Range Query Analysis for the Best Parameter
+  ESC: quit
+
+road number: 12433
+station number: 488
+-----START BUILDING FOR STATIONS-----
+Quad Tree building time: 0s
+Serial preparation time: 0.001s
+Serial large node stage time: 0.002s
+Serial small node stage time: 0s
+Serial building time: 0.004s
+Parallel preparation time: 0.002s
+Parallel large node stage time: 0.002s
+Parallel small node stage time: 0.012s
+Parallel building time: 0.018s
+-----------------END-----------------
+*********************Start*********************
+TEST1: Comparison of Building Time between Parallel-KDTree and Serial-KDTree
+taxi number: 186781
+-------START BUILDING FOR TAXI-------
+It will take about 2 minutes in debug mode...
+Quad Tree building time: 0s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.832s
+Serial small node stage time: 0.166s
+Serial building time: 4.249s
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.098s
+Parallel small node stage time: 0.126s
+Parallel building time: 2.451s
+-----------------END-----------------
+Parallel preparation time: 0.231s
+Parallel large node stage time: 2.545s
+Parallel small node stage time: 0.459s
+Parallel building time: 3.235s
+Serial preparation time: 0.264s
+Serial large node stage time: 4.51s
+Serial small node stage time: 0.92s
+Serial building time: 5.696s
+The parallel algorithm saved 43.1854% time cost when Ce = 0.05 and Cts = 0.1
+Parallel preparation time: 0.23s
+Parallel large node stage time: 2.209s
+Parallel small node stage time: 0.442s
+Parallel building time: 2.882s
+Serial preparation time: 0.254s
+Serial large node stage time: 4.082s
+Serial small node stage time: 0.89s
+Serial building time: 5.228s
+The parallel algorithm saved 44.8863% time cost when Ce = 0.15 and Cts = 0.1
+Parallel preparation time: 0.239s
+Parallel large node stage time: 2.182s
+Parallel small node stage time: 0.444s
+Parallel building time: 2.866s
+Serial preparation time: 0.258s
+Serial large node stage time: 3.964s
+Serial small node stage time: 0.883s
+Serial building time: 5.106s
+The parallel algorithm saved 43.8332% time cost when Ce = 0.25 and Cts = 0.1
+Parallel preparation time: 0.231s
+Parallel large node stage time: 2.126s
+Parallel small node stage time: 0.442s
+Parallel building time: 2.801s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.945s
+Serial small node stage time: 0.885s
+Serial building time: 5.082s
+The parallel algorithm saved 44.8771% time cost when Ce = 0.35 and Cts = 0.1
+Parallel preparation time: 0.234s
+Parallel large node stage time: 2.166s
+Parallel small node stage time: 0.437s
+Parallel building time: 2.839s
+Serial preparation time: 0.253s
+Serial large node stage time: 3.92s
+Serial small node stage time: 0.878s
+Serial building time: 5.053s
+The parallel algorithm saved 43.8093% time cost when Ce = 0.45 and Cts = 0.1
+Parallel preparation time: 0.236s
+Parallel large node stage time: 2.21s
+Parallel small node stage time: 0.436s
+Parallel building time: 2.884s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.901s
+Serial small node stage time: 0.883s
+Serial building time: 5.037s
+The parallel algorithm saved 42.7381% time cost when Ce = 0.55 and Cts = 0.1
+Parallel preparation time: 0.23s
+Parallel large node stage time: 2.174s
+Parallel small node stage time: 0.442s
+Parallel building time: 2.847s
+Serial preparation time: 0.255s
+Serial large node stage time: 3.925s
+Serial small node stage time: 0.876s
+Serial building time: 5.06s
+The parallel algorithm saved 43.7093% time cost when Ce = 0.65 and Cts = 0.1
+Parallel preparation time: 0.232s
+Parallel large node stage time: 2.176s
+Parallel small node stage time: 0.44s
+Parallel building time: 2.851s
+Serial preparation time: 0.261s
+Serial large node stage time: 3.92s
+Serial small node stage time: 0.88s
+Serial building time: 5.063s
+The parallel algorithm saved 43.6834% time cost when Ce = 0.75 and Cts = 0.1
+Parallel preparation time: 0.237s
+Parallel large node stage time: 2.212s
+Parallel small node stage time: 0.431s
+Parallel building time: 2.881s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.94s
+Serial small node stage time: 0.881s
+Serial building time: 5.073s
+The parallel algorithm saved 43.2145% time cost when Ce = 0.85 and Cts = 0.1
+Parallel preparation time: 0.237s
+Parallel large node stage time: 2.237s
+Parallel small node stage time: 0.43s
+Parallel building time: 2.906s
+Serial preparation time: 0.257s
+Serial large node stage time: 3.925s
+Serial small node stage time: 0.884s
+Serial building time: 5.068s
+The parallel algorithm saved 42.6543% time cost when Ce = 0.95 and Cts = 0.1
+Parallel preparation time: 0.231s
+Parallel large node stage time: 2.616s
+Parallel small node stage time: 0.444s
+Parallel building time: 3.293s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.564s
+Serial small node stage time: 0.933s
+Serial building time: 5.749s
+The parallel algorithm saved 42.6982% time cost when Ce = 0.05 and Cts = 0.2
+Parallel preparation time: 0.231s
+Parallel large node stage time: 2.227s
+Parallel small node stage time: 0.433s
+Parallel building time: 2.894s
+Serial preparation time: 0.248s
+Serial large node stage time: 4.08s
+Serial small node stage time: 0.911s
+Serial building time: 5.241s
+The parallel algorithm saved 44.7855% time cost when Ce = 0.15 and Cts = 0.2
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.263s
+Parallel small node stage time: 0.427s
+Parallel building time: 2.918s
+Serial preparation time: 0.25s
+Serial large node stage time: 3.943s
+Serial small node stage time: 0.867s
+Serial building time: 5.06s
+The parallel algorithm saved 42.3069% time cost when Ce = 0.25 and Cts = 0.2
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.296s
+Parallel small node stage time: 0.429s
+Parallel building time: 2.955s
+Serial preparation time: 0.255s
+Serial large node stage time: 3.917s
+Serial small node stage time: 0.862s
+Serial building time: 5.036s
+The parallel algorithm saved 41.3177% time cost when Ce = 0.35 and Cts = 0.2
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.271s
+Parallel small node stage time: 0.437s
+Parallel building time: 2.938s
+Serial preparation time: 0.256s
+Serial large node stage time: 3.925s
+Serial small node stage time: 0.867s
+Serial building time: 5.051s
+The parallel algorithm saved 41.8283% time cost when Ce = 0.45 and Cts = 0.2
+Parallel preparation time: 0.23s
+Parallel large node stage time: 2.25s
+Parallel small node stage time: 0.428s
+Parallel building time: 2.91s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.929s
+Serial small node stage time: 0.855s
+Serial building time: 5.035s
+The parallel algorithm saved 42.1878% time cost when Ce = 0.55 and Cts = 0.2
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.25s
+Parallel small node stage time: 0.425s
+Parallel building time: 2.904s
+Serial preparation time: 0.248s
+Serial large node stage time: 3.898s
+Serial small node stage time: 0.852s
+Serial building time: 5s
+The parallel algorithm saved 41.9032% time cost when Ce = 0.65 and Cts = 0.2
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.286s
+Parallel small node stage time: 0.424s
+Parallel building time: 2.938s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.921s
+Serial small node stage time: 0.881s
+Serial building time: 5.054s
+The parallel algorithm saved 41.843% time cost when Ce = 0.75 and Cts = 0.2
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.245s
+Parallel small node stage time: 0.42s
+Parallel building time: 2.896s
+Serial preparation time: 0.253s
+Serial large node stage time: 3.961s
+Serial small node stage time: 0.861s
+Serial building time: 5.077s
+The parallel algorithm saved 42.9528% time cost when Ce = 0.85 and Cts = 0.2
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.265s
+Parallel small node stage time: 0.425s
+Parallel building time: 2.917s
+Serial preparation time: 0.258s
+Serial large node stage time: 3.9s
+Serial small node stage time: 0.863s
+Serial building time: 5.022s
+The parallel algorithm saved 41.8905% time cost when Ce = 0.95 and Cts = 0.2
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.747s
+Parallel small node stage time: 0.327s
+Parallel building time: 3.299s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.515s
+Serial small node stage time: 0.699s
+Serial building time: 5.469s
+The parallel algorithm saved 39.6747% time cost when Ce = 0.05 and Cts = 0.4
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.374s
+Parallel small node stage time: 0.314s
+Parallel building time: 2.915s
+Serial preparation time: 0.255s
+Serial large node stage time: 4.03s
+Serial small node stage time: 0.659s
+Serial building time: 4.947s
+The parallel algorithm saved 41.0588% time cost when Ce = 0.15 and Cts = 0.4
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.327s
+Parallel small node stage time: 0.342s
+Parallel building time: 2.9s
+Serial preparation time: 0.25s
+Serial large node stage time: 3.966s
+Serial small node stage time: 0.655s
+Serial building time: 4.872s
+The parallel algorithm saved 40.4596% time cost when Ce = 0.25 and Cts = 0.4
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.314s
+Parallel small node stage time: 0.308s
+Parallel building time: 2.849s
+Serial preparation time: 0.248s
+Serial large node stage time: 3.915s
+Serial small node stage time: 0.666s
+Serial building time: 4.831s
+The parallel algorithm saved 41.0219% time cost when Ce = 0.35 and Cts = 0.4
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.364s
+Parallel small node stage time: 0.308s
+Parallel building time: 2.9s
+Serial preparation time: 0.253s
+Serial large node stage time: 3.93s
+Serial small node stage time: 0.669s
+Serial building time: 4.855s
+The parallel algorithm saved 40.2635% time cost when Ce = 0.45 and Cts = 0.4
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.342s
+Parallel small node stage time: 0.304s
+Parallel building time: 2.876s
+Serial preparation time: 0.252s
+Serial large node stage time: 3.908s
+Serial small node stage time: 0.652s
+Serial building time: 4.814s
+The parallel algorithm saved 40.2409% time cost when Ce = 0.55 and Cts = 0.4
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.321s
+Parallel small node stage time: 0.31s
+Parallel building time: 2.859s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.927s
+Serial small node stage time: 0.653s
+Serial building time: 4.832s
+The parallel algorithm saved 40.8273% time cost when Ce = 0.65 and Cts = 0.4
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.345s
+Parallel small node stage time: 0.304s
+Parallel building time: 2.875s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.984s
+Serial small node stage time: 0.657s
+Serial building time: 4.893s
+The parallel algorithm saved 41.2257% time cost when Ce = 0.75 and Cts = 0.4
+Parallel preparation time: 0.23s
+Parallel large node stage time: 2.366s
+Parallel small node stage time: 0.308s
+Parallel building time: 2.907s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.871s
+Serial small node stage time: 0.658s
+Serial building time: 4.782s
+The parallel algorithm saved 39.1931% time cost when Ce = 0.85 and Cts = 0.4
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.364s
+Parallel small node stage time: 0.308s
+Parallel building time: 2.898s
+Serial preparation time: 0.258s
+Serial large node stage time: 3.933s
+Serial small node stage time: 0.66s
+Serial building time: 4.852s
+The parallel algorithm saved 40.2431% time cost when Ce = 0.95 and Cts = 0.4
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.76s
+Parallel small node stage time: 0.206s
+Parallel building time: 3.195s
+Serial preparation time: 0.261s
+Serial large node stage time: 4.502s
+Serial small node stage time: 0.432s
+Serial building time: 5.198s
+The parallel algorithm saved 38.5192% time cost when Ce = 0.05 and Cts = 0.8
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.47s
+Parallel small node stage time: 0.194s
+Parallel building time: 2.895s
+Serial preparation time: 0.257s
+Serial large node stage time: 4.035s
+Serial small node stage time: 0.417s
+Serial building time: 4.712s
+The parallel algorithm saved 38.5578% time cost when Ce = 0.15 and Cts = 0.8
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.353s
+Parallel small node stage time: 0.198s
+Parallel building time: 2.777s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.944s
+Serial small node stage time: 0.409s
+Serial building time: 4.605s
+The parallel algorithm saved 39.6832% time cost when Ce = 0.25 and Cts = 0.8
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.327s
+Parallel small node stage time: 0.19s
+Parallel building time: 2.741s
+Serial preparation time: 0.256s
+Serial large node stage time: 3.934s
+Serial small node stage time: 0.414s
+Serial building time: 4.607s
+The parallel algorithm saved 40.4989% time cost when Ce = 0.35 and Cts = 0.8
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.374s
+Parallel small node stage time: 0.196s
+Parallel building time: 2.793s
+Serial preparation time: 0.254s
+Serial large node stage time: 3.948s
+Serial small node stage time: 0.428s
+Serial building time: 4.632s
+The parallel algorithm saved 39.6849% time cost when Ce = 0.45 and Cts = 0.8
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.428s
+Parallel small node stage time: 0.192s
+Parallel building time: 2.851s
+Serial preparation time: 0.247s
+Serial large node stage time: 3.895s
+Serial small node stage time: 0.407s
+Serial building time: 4.552s
+The parallel algorithm saved 37.3518% time cost when Ce = 0.55 and Cts = 0.8
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.346s
+Parallel small node stage time: 0.196s
+Parallel building time: 2.768s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.919s
+Serial small node stage time: 0.41s
+Serial building time: 4.582s
+The parallel algorithm saved 39.5856% time cost when Ce = 0.65 and Cts = 0.8
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.425s
+Parallel small node stage time: 0.189s
+Parallel building time: 2.843s
+Serial preparation time: 0.252s
+Serial large node stage time: 3.9s
+Serial small node stage time: 0.41s
+Serial building time: 4.564s
+The parallel algorithm saved 37.6916% time cost when Ce = 0.75 and Cts = 0.8
+Parallel preparation time: 0.23s
+Parallel large node stage time: 2.434s
+Parallel small node stage time: 0.195s
+Parallel building time: 2.861s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.943s
+Serial small node stage time: 0.41s
+Serial building time: 4.606s
+The parallel algorithm saved 37.8959% time cost when Ce = 0.85 and Cts = 0.8
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.405s
+Parallel small node stage time: 0.19s
+Parallel building time: 2.822s
+Serial preparation time: 0.259s
+Serial large node stage time: 3.959s
+Serial small node stage time: 0.416s
+Serial building time: 4.636s
+The parallel algorithm saved 39.1248% time cost when Ce = 0.95 and Cts = 0.8
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.777s
+Parallel small node stage time: 0.165s
+Parallel building time: 3.171s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.501s
+Serial small node stage time: 0.309s
+Serial building time: 5.062s
+The parallel algorithm saved 37.3544% time cost when Ce = 0.05 and Cts = 1.6
+Parallel preparation time: 0.235s
+Parallel large node stage time: 2.484s
+Parallel small node stage time: 0.153s
+Parallel building time: 2.873s
+Serial preparation time: 0.25s
+Serial large node stage time: 4.05s
+Serial small node stage time: 0.283s
+Serial building time: 4.585s
+The parallel algorithm saved 37.3229% time cost when Ce = 0.15 and Cts = 1.6
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.485s
+Parallel small node stage time: 0.173s
+Parallel building time: 2.883s
+Serial preparation time: 0.249s
+Serial large node stage time: 4.012s
+Serial small node stage time: 0.276s
+Serial building time: 4.538s
+The parallel algorithm saved 36.4317% time cost when Ce = 0.25 and Cts = 1.6
+Parallel preparation time: 0.222s
+Parallel large node stage time: 2.416s
+Parallel small node stage time: 0.147s
+Parallel building time: 2.787s
+Serial preparation time: 0.25s
+Serial large node stage time: 3.924s
+Serial small node stage time: 0.273s
+Serial building time: 4.449s
+The parallel algorithm saved 37.3681% time cost when Ce = 0.35 and Cts = 1.6
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.421s
+Parallel small node stage time: 0.146s
+Parallel building time: 2.794s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.954s
+Serial small node stage time: 0.275s
+Serial building time: 4.482s
+The parallel algorithm saved 37.645% time cost when Ce = 0.45 and Cts = 1.6
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.538s
+Parallel small node stage time: 0.147s
+Parallel building time: 2.91s
+Serial preparation time: 0.252s
+Serial large node stage time: 3.953s
+Serial small node stage time: 0.273s
+Serial building time: 4.479s
+The parallel algorithm saved 35.0145% time cost when Ce = 0.55 and Cts = 1.6
+Parallel preparation time: 0.226s
+Parallel large node stage time: 2.491s
+Parallel small node stage time: 0.145s
+Parallel building time: 2.863s
+Serial preparation time: 0.252s
+Serial large node stage time: 3.953s
+Serial small node stage time: 0.277s
+Serial building time: 4.484s
+The parallel algorithm saved 36.1489% time cost when Ce = 0.65 and Cts = 1.6
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.465s
+Parallel small node stage time: 0.146s
+Parallel building time: 2.838s
+Serial preparation time: 0.255s
+Serial large node stage time: 3.985s
+Serial small node stage time: 0.275s
+Serial building time: 4.517s
+The parallel algorithm saved 37.1542% time cost when Ce = 0.75 and Cts = 1.6
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.462s
+Parallel small node stage time: 0.147s
+Parallel building time: 2.835s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.953s
+Serial small node stage time: 0.274s
+Serial building time: 4.48s
+The parallel algorithm saved 36.6801% time cost when Ce = 0.85 and Cts = 1.6
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.518s
+Parallel small node stage time: 0.146s
+Parallel building time: 2.891s
+Serial preparation time: 0.257s
+Serial large node stage time: 3.981s
+Serial small node stage time: 0.275s
+Serial building time: 4.514s
+The parallel algorithm saved 35.9389% time cost when Ce = 0.95 and Cts = 1.6
+Parallel preparation time: 0.223s
+Parallel large node stage time: 2.966s
+Parallel small node stage time: 0.14s
+Parallel building time: 3.332s
+Serial preparation time: 0.267s
+Serial large node stage time: 4.553s
+Serial small node stage time: 0.228s
+Serial building time: 5.05s
+The parallel algorithm saved 34.0063% time cost when Ce = 0.05 and Cts = 3.2
+Parallel preparation time: 0.224s
+Parallel large node stage time: 2.603s
+Parallel small node stage time: 0.13s
+Parallel building time: 2.959s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.083s
+Serial small node stage time: 0.205s
+Serial building time: 4.542s
+The parallel algorithm saved 34.8658% time cost when Ce = 0.15 and Cts = 3.2
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.491s
+Parallel small node stage time: 0.127s
+Parallel building time: 2.849s
+Serial preparation time: 0.261s
+Serial large node stage time: 4.016s
+Serial small node stage time: 0.205s
+Serial building time: 4.485s
+The parallel algorithm saved 36.4609% time cost when Ce = 0.25 and Cts = 3.2
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.508s
+Parallel small node stage time: 0.128s
+Parallel building time: 2.862s
+Serial preparation time: 0.253s
+Serial large node stage time: 4.004s
+Serial small node stage time: 0.202s
+Serial building time: 4.461s
+The parallel algorithm saved 35.8503% time cost when Ce = 0.35 and Cts = 3.2
+Parallel preparation time: 0.228s
+Parallel large node stage time: 2.541s
+Parallel small node stage time: 0.127s
+Parallel building time: 2.898s
+Serial preparation time: 0.251s
+Serial large node stage time: 3.974s
+Serial small node stage time: 0.202s
+Serial building time: 4.429s
+The parallel algorithm saved 34.552% time cost when Ce = 0.45 and Cts = 3.2
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.59s
+Parallel small node stage time: 0.126s
+Parallel building time: 2.945s
+Serial preparation time: 0.252s
+Serial large node stage time: 3.957s
+Serial small node stage time: 0.198s
+Serial building time: 4.409s
+The parallel algorithm saved 33.1898% time cost when Ce = 0.55 and Cts = 3.2
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.557s
+Parallel small node stage time: 0.126s
+Parallel building time: 2.911s
+Serial preparation time: 0.249s
+Serial large node stage time: 3.971s
+Serial small node stage time: 0.198s
+Serial building time: 4.419s
+The parallel algorithm saved 34.1248% time cost when Ce = 0.65 and Cts = 3.2
+Parallel preparation time: 0.232s
+Parallel large node stage time: 2.559s
+Parallel small node stage time: 0.127s
+Parallel building time: 2.92s
+Serial preparation time: 0.25s
+Serial large node stage time: 3.986s
+Serial small node stage time: 0.199s
+Serial building time: 4.437s
+The parallel algorithm saved 34.1744% time cost when Ce = 0.75 and Cts = 3.2
+Parallel preparation time: 0.235s
+Parallel large node stage time: 2.607s
+Parallel small node stage time: 0.128s
+Parallel building time: 2.972s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.084s
+Serial small node stage time: 0.201s
+Serial building time: 4.538s
+The parallel algorithm saved 34.4934% time cost when Ce = 0.85 and Cts = 3.2
+Parallel preparation time: 0.225s
+Parallel large node stage time: 2.612s
+Parallel small node stage time: 0.126s
+Parallel building time: 2.965s
+Serial preparation time: 0.253s
+Serial large node stage time: 3.984s
+Serial small node stage time: 0.199s
+Serial building time: 4.437s
+The parallel algorithm saved 33.1606% time cost when Ce = 0.95 and Cts = 3.2
+Parallel preparation time: 0.226s
+Parallel large node stage time: 3.046s
+Parallel small node stage time: 0.143s
+Parallel building time: 3.417s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.603s
+Serial small node stage time: 0.178s
+Serial building time: 5.035s
+The parallel algorithm saved 32.1358% time cost when Ce = 0.05 and Cts = 6.4
+Parallel preparation time: 0.23s
+Parallel large node stage time: 2.788s
+Parallel small node stage time: 0.117s
+Parallel building time: 3.137s
+Serial preparation time: 0.251s
+Serial large node stage time: 4.207s
+Serial small node stage time: 0.161s
+Serial building time: 4.621s
+The parallel algorithm saved 32.1297% time cost when Ce = 0.15 and Cts = 6.4
+Parallel preparation time: 0.227s
+Parallel large node stage time: 2.662s
+Parallel small node stage time: 0.117s
+Parallel building time: 3.007s
+Serial preparation time: 0.253s
+Serial large node stage time: 4.249s
+Serial small node stage time: 0.165s
+Serial building time: 4.668s
+The parallel algorithm saved 35.5675% time cost when Ce = 0.25 and Cts = 6.4
+Parallel preparation time: 0.23s
+Parallel large node stage time: 2.798s
+Parallel small node stage time: 0.12s
+Parallel building time: 3.15s
+Serial preparation time: 0.275s
+Serial large node stage time: 4.424s
+Serial small node stage time: 0.16s
+Serial building time: 4.861s
+The parallel algorithm saved 35.184% time cost when Ce = 0.35 and Cts = 6.4
+Parallel preparation time: 0.229s
+Parallel large node stage time: 2.968s
+Parallel small node stage time: 0.119s
+Parallel building time: 3.318s
+Serial preparation time: 0.266s
+Serial large node stage time: 4.401s
+Serial small node stage time: 0.16s
+Serial building time: 4.829s
+The parallel algorithm saved 31.2979% time cost when Ce = 0.45 and Cts = 6.4
+Parallel preparation time: 0.233s
+Parallel large node stage time: 3.012s
+Parallel small node stage time: 0.124s
+Parallel building time: 3.371s
+Serial preparation time: 0.27s
+Serial large node stage time: 4.391s
+Serial small node stage time: 0.165s
+Serial building time: 4.828s
+The parallel algorithm saved 30.1656% time cost when Ce = 0.55 and Cts = 6.4
+Parallel preparation time: 0.242s
+Parallel large node stage time: 3.006s
+Parallel small node stage time: 0.121s
+Parallel building time: 3.371s
+Serial preparation time: 0.283s
+Serial large node stage time: 4.21s
+Serial small node stage time: 0.163s
+Serial building time: 4.656s
+The parallel algorithm saved 27.6084% time cost when Ce = 0.65 and Cts = 6.4
+Parallel preparation time: 0.233s
+Parallel large node stage time: 2.857s
+Parallel small node stage time: 0.12s
+Parallel building time: 3.212s
+Serial preparation time: 0.268s
+Serial large node stage time: 4.155s
+Serial small node stage time: 0.163s
+Serial building time: 4.588s
+The parallel algorithm saved 29.9782% time cost when Ce = 0.75 and Cts = 6.4
+Parallel preparation time: 0.231s
+Parallel large node stage time: 3.115s
+Parallel small node stage time: 0.115s
+Parallel building time: 3.462s
+Serial preparation time: 0.266s
+Serial large node stage time: 4.149s
+Serial small node stage time: 0.16s
+Serial building time: 4.577s
+The parallel algorithm saved 24.3668% time cost when Ce = 0.85 and Cts = 6.4
+Parallel preparation time: 0.237s
+Parallel large node stage time: 2.934s
+Parallel small node stage time: 0.114s
+Parallel building time: 3.286s
+Serial preparation time: 0.259s
+Serial large node stage time: 4.129s
+Serial small node stage time: 0.163s
+Serial building time: 4.552s
+The parallel algorithm saved 27.7997% time cost when Ce = 0.95 and Cts = 6.4
+Parallel preparation time: 0.231s
+Parallel large node stage time: 3.343s
+Parallel small node stage time: 0.147s
+Parallel building time: 3.723s
+Serial preparation time: 0.252s
+Serial large node stage time: 4.82s
+Serial small node stage time: 0.169s
+Serial building time: 5.243s
+The parallel algorithm saved 29.0126% time cost when Ce = 0.05 and Cts = 12.8
+Parallel preparation time: 0.242s
+Parallel large node stage time: 2.994s
+Parallel small node stage time: 0.118s
+Parallel building time: 3.355s
+Serial preparation time: 0.269s
+Serial large node stage time: 4.367s
+Serial small node stage time: 0.142s
+Serial building time: 4.78s
+The parallel algorithm saved 29.7992% time cost when Ce = 0.15 and Cts = 12.8
+Parallel preparation time: 0.231s
+Parallel large node stage time: 3.014s
+Parallel small node stage time: 0.116s
+Parallel building time: 3.364s
+Serial preparation time: 0.254s
+Serial large node stage time: 4.265s
+Serial small node stage time: 0.141s
+Serial building time: 4.662s
+The parallel algorithm saved 27.8302% time cost when Ce = 0.25 and Cts = 12.8
+Parallel preparation time: 0.247s
+Parallel large node stage time: 2.947s
+Parallel small node stage time: 0.11s
+Parallel building time: 3.306s
+Serial preparation time: 0.275s
+Serial large node stage time: 4.182s
+Serial small node stage time: 0.138s
+Serial building time: 4.597s
+The parallel algorithm saved 28.0652% time cost when Ce = 0.35 and Cts = 12.8
+Parallel preparation time: 0.234s
+Parallel large node stage time: 3.021s
+Parallel small node stage time: 0.11s
+Parallel building time: 3.367s
+Serial preparation time: 0.263s
+Serial large node stage time: 4.215s
+Serial small node stage time: 0.139s
+Serial building time: 4.618s
+The parallel algorithm saved 27.0779% time cost when Ce = 0.45 and Cts = 12.8
+Parallel preparation time: 0.23s
+Parallel large node stage time: 3.056s
+Parallel small node stage time: 0.111s
+Parallel building time: 3.398s
+Serial preparation time: 0.259s
+Serial large node stage time: 4.221s
+Serial small node stage time: 0.137s
+Serial building time: 4.62s
+The parallel algorithm saved 26.4604% time cost when Ce = 0.55 and Cts = 12.8
+Parallel preparation time: 0.233s
+Parallel large node stage time: 2.991s
+Parallel small node stage time: 0.111s
+Parallel building time: 3.336s
+Serial preparation time: 0.266s
+Serial large node stage time: 4.2s
+Serial small node stage time: 0.136s
+Serial building time: 4.603s
+The parallel algorithm saved 27.5353% time cost when Ce = 0.65 and Cts = 12.8
+Parallel preparation time: 0.227s
+Parallel large node stage time: 3.019s
+Parallel small node stage time: 0.111s
+Parallel building time: 3.359s
+Serial preparation time: 0.26s
+Serial large node stage time: 4.258s
+Serial small node stage time: 0.136s
+Serial building time: 4.656s
+The parallel algorithm saved 27.8446% time cost when Ce = 0.75 and Cts = 12.8
+Parallel preparation time: 0.23s
+Parallel large node stage time: 3.006s
+Parallel small node stage time: 0.109s
+Parallel building time: 3.347s
+Serial preparation time: 0.254s
+Serial large node stage time: 4.282s
+Serial small node stage time: 0.139s
+Serial building time: 4.678s
+The parallel algorithm saved 28.4402% time cost when Ce = 0.85 and Cts = 12.8
+Parallel preparation time: 0.23s
+Parallel large node stage time: 3.243s
+Parallel small node stage time: 0.115s
+Parallel building time: 3.59s
+Serial preparation time: 0.256s
+Serial large node stage time: 4.244s
+Serial small node stage time: 0.139s
+Serial building time: 4.641s
+The parallel algorithm saved 22.6744% time cost when Ce = 0.95 and Cts = 12.8
+**********************End**********************
+This mode is only display via QuadTree;
+
+E:\Desktop\ACGProj\ACGProject\x64\Release\ACGProject.exe (进程 21424)已退出，代码为 -1。
+要在调试停止时自动关闭控制台，请启用“工具”->“选项”->“调试”->“调试停止时自动关闭控制台”。
+按任意键关闭此窗口. . .
